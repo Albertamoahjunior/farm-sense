@@ -1,0 +1,5 @@
+References:
+ * FAO: "The State of Food and Agriculture 2021: Transforming agrifood systems for improved food security, better nutrition and a healthier environment" (https://www.fao.org/documents/card/en/c/cb4474en.)
+ * World Bank: "Climate Change and Agriculture: Addressing the Challenges and Harnessing Opportunities" (https://www.worldbank.org/en/topic/climate-smart-agriculture)
+ * Precision Agriculture Research Institute: "The Use of Precision Agriculture Technologies for Sustainable Crop Production" (https://www.researchgate.net/publication/375186166_Precision_and_Sustainable_Agriculture)
+This expanded statement provides a more detailed overview of the challenges and opportunities associated with farm monitoring systems, outlining specific areas for improvement and desired outcomes. It also strengthens the argument for developing such a system by highlighting its potential benefits for farmers, the environment, and the overall agricultural sector.
