@@ -14,4 +14,4 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Design and Development of Precision Agriculture System Using Wireless Sensor Netwoork}{7}{}%
 \contentsline {subsubsection}{\numberline {2.2.3}Design and Implementation of a connected Farm for Smart Farming System}{8}{}%
 \contentsline {subsubsection}{\numberline {2.2.4}Design and Implementation of an Agricultural Monitoring System for Smart Farming}{8}{}%
-\contentsline {subsection}{\numberline {2.3}Summary}{8}{}%
+\contentsline {subsection}{\numberline {2.3}Summary}{9}{}%
