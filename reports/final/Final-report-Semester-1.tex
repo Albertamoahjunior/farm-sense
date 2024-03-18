@@ -177,8 +177,28 @@ In a paper written by Minwoo Ryu, Taeseok Yun, Ting Miu, $\Pi$-Yeup Ahn, Sung-Ch
 The goal of the research was provide a suitable environment for growing crops. In this implementation, All sensors and actuators for monitoring and growing crops are connected with a gateway installed a device software platform for IOT systems called \emph{Cube}. The gateway is in turn communicated with an IOT service server called \emph{Mobius}. Accordingly the Mobius not only monitors the environmental condition of the connected farm but also talks with expert farming knowledge systems and controls actuators in order to make the farm suitable to grow crops.\\
 The system is extendable, it also easily integrates with new devices and facilitate horizontal smart farm platforms, which enables all smart farms to be connected and take advantage of expert farming knowledge sytems.      
 \subsubsection{Design and Implementation of an Agricultural Monitoring System for Smart Farming}
-In an article by Jan Bauer and Nils Aschenbruck University of Osnabruck institute of Computer Science from the 2018 IOT vertical and Topic SUmmit on Agriculture, an agricultural monitoring system for smart farming based on Wireless Sensor Network(WSN) was discussed.\\
+In an article by Jan Bauer and Nils Aschenbruck University of Osnabruck institute of Computer Science from the 2018 IOT vertical and Topic Summit on Agriculture, an agricultural monitoring system for smart farming based on Wireless Sensor Network(WSN) was discussed.\\
 This paper was based on a previous paper by the same group. In the previous paper a Photosynthetically Active Radiation(PAR) Sensor was used. The focus of these deployments is on a specific crop parameter, namely the Leaf Area Index(LAI). The LAI is a widely used key parameter that provides information about the photosynthetically performance and vital conditions of plants. The parameter is related to vegetative biomass and simply defined as dimensionless quantity of leaf area of per ground surface area. SInce it also serves as an indicator for yield modeling. The overarching goal of our system is long term continuous crop monitoring that enables LAI profiles with a fine-grained  spatio-temporal resolution. Their previous sensor is used. It senses ambient light in the Photosynthetically Active Radiation(PAR) range. From two simultaneous  PAR measurements; one from below and the other from above the canopy, the transmittance of the irradiation through the canopy can be derived that allows the estimation of the LAI. The key approaches are hardware redundancy, software simplicity, and remote control of the entire system. The architecture developed primarily comprises a WSN-based monitoring system that is tailored for in-situ LAI assessment. The system is fault tolerant due to their hardware redundancy and it is easy to manage since it is remotely controlled.
+\subsubsection{Desgn and Implentation of Smart Farm Data Logging and Monitoring System}
+
+\subsubsection{Design of GreenHouse Environment Monitoring System based on Wireless Sensor Networks}
+
+\subsubsection{Wireless Sensor Network for GreenHouse}
+
+\subsubsection{GreenHouse Monitoring and Control System based on Wireless Sensor Network}
+
+\subsubsection{GreenHouse Monitoring with Wireless Sensor Network}
+
+\subsubsection{A long-term field monitoring system with field sservers at a Grape farm}
+In an article by Tokihiro Fukatsu, Yasunori Sairo, Takanobu Suzuki, Kin-chi, Kobayashi and Masayuk Hirufuji and  implementation and an experiment was discussed.\\
+The proposed system is constructed using Web-based sensor nodes, an agent program and Web analysis applications, and these modules are connected with each other via the Internet.\\ 
+Web-based sensor nodes, one of which was developed as a Field Server in their previous work which has a wireless LAN, an Internet camera, and a monitoring unit with a Web server. A wireless LAN provides high-speed transmission and long-distance communication at low cost, and is therefore effective in monitoring image data.\\
+A sensor node equipped with a monitoring unit and an Internet camera, which can be accessed using a Web browser such as Internet Explorer, differs from traditional sensor nodes in its data handling architecture.\\
+ The architecture of the Web-based sensor node is of the “pulltype” that is, it functions in the manner of a Web page, showing information only when it is accessed. It functions interactively and performs remote management. Therefore, simply by mounting small firmware on the inside, it can be made to carry out various types of data analysis and complicated operations in the
+total system with an agent program and Web applications via the Internet.\\
+In this system, each function is separate and the various functions are connected via the Internet, so users at a field site need not manage the system without deploying sensor nodes and connecting them to the Internet. The sensor nodes are controlled by the agent program at a remote site and the collected data is displayed on a Web-based database, whose storage is easily extended and which is accessible to users via the Internet. The agent program, which serves as a cornerstone of this system, accesses and controls all types of Web-based modules seamlessly on the Internet.\\ 
+This program operates autonomously based on parameter files (Profiles) in a XML format and it performs complicated operations on the sensor nodes using production rules.\\
+It can analyze the monitoring data by using Web applications which execute their process autonomously with input data. By preparing useful Web applications such as image analysis and signal processing, this system provides versatile and easily expansible functions without changing or rebooting the agent program and it makes it possible to distribute calculation tasks.
 \subsection{Summary}
 \newpage
 
