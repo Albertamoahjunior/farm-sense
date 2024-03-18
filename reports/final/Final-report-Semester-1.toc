@@ -15,3 +15,4 @@
 \contentsline {subsubsection}{\numberline {2.2.3}Design and Implementation of a connected Farm for Smart Farming System}{8}{}%
 \contentsline {subsubsection}{\numberline {2.2.4}Design and Implementation of an Agricultural Monitoring System for Smart Farming}{8}{}%
 \contentsline {subsection}{\numberline {2.3}Summary}{9}{}%
+\contentsline {section}{\numberline {3}Methodology}{10}{}%
