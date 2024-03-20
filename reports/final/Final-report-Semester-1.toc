@@ -18,7 +18,10 @@
 \contentsline {subsubsection}{\numberline {2.2.6}Design of GreenHouse Environment Monitoring System based on Wireless Sensor Networks}{9}{}%
 \contentsline {subsubsection}{\numberline {2.2.7}Wireless Sensor Network for GreenHouse}{10}{}%
 \contentsline {subsubsection}{\numberline {2.2.8}GreenHouse Monitoring and Control System based on Wireless Sensor Network}{10}{}%
-\contentsline {subsubsection}{\numberline {2.2.9}GreenHouse Monitoring with Wireless Sensor Network}{10}{}%
-\contentsline {subsubsection}{\numberline {2.2.10}A long-term field monitoring system with field sservers at a Grape farm}{10}{}%
-\contentsline {subsection}{\numberline {2.3}Summary}{11}{}%
-\contentsline {section}{\numberline {3}Methodology}{12}{}%
+\contentsline {subsubsection}{\numberline {2.2.9}GreenHouse Monitoring with Wireless Sensor Network}{11}{}%
+\contentsline {subsubsection}{\numberline {2.2.10}A long-term field monitoring system with field sservers at a Grape farm}{11}{}%
+\contentsline {subsection}{\numberline {2.3}Summary}{12}{}%
+\contentsline {section}{\numberline {3}Methodology}{13}{}%
+\contentsline {subsection}{\numberline {3.1}Overall System Architecture}{13}{}%
+\contentsline {subsection}{\numberline {3.2}Hardware Architecture}{13}{}%
+\contentsline {subsection}{\numberline {3.3}Software Architecture}{13}{}%
