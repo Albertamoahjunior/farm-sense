@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.1.1)  21 MAR 2024 04:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.1.1)  22 MAR 2024 04:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -297,11 +297,29 @@ Overfull \hbox (4.67947pt too wide) in paragraph at lines 18--18
 tem based 
  []
 
+
+Overfull \hbox (1.40735pt too wide) in paragraph at lines 26--26
+ \OT1/cmr/m/n/12 ron-men-tal con-di-tion us-ing wire-less sen-sor network-IOT T
+ech- 
+ []
+
+[5]
+Overfull \hbox (2.01839pt too wide) in paragraph at lines 35--35
+ [][] []\OT1/cmr/m/n/12 Study on Pre-ci-sion Agri-cul-ture Mon-i-tor-ing Frame-
+work Based 
+ []
+
+
+Overfull \hbox (2.24477pt too wide) in paragraph at lines 37--37
+ [][] []\OT1/cmr/m/n/12 Design and Im-ple-men-ta-tion of an IoT-Based Sys-tem f
+or Mon- 
+ []
+
 )
 \tf@toc=\write3
 \openout3 = `Final-report-Semester-1.toc'.
 
- [5]
+ [6]
 Underfull \hbox (badness 10000) in paragraph at lines 61--65
 
  []
@@ -351,7 +369,19 @@ Overfull \hbox (14.94731pt too wide) in paragraph at lines 231--231
 []\OT1/cmr/bx/n/12 PRELIMINARY DE-SIGN FOR CROP MON-I-TOR-ING IN-VOLV-
  []
 
-[12] [13] [14] (./Final-report-Semester-1.bbl [15]) [16]
+[12] [13] [14] [15]
+Overfull \hbox (1.86974pt too wide) in paragraph at lines 280--282
+\OT1/cmr/m/n/12 The study uti-lizes a minia-tur-ized leaf wet-ness sen-sor in-t
+e-grated with an application-
+ []
+
+[16]
+Overfull \hbox (0.49213pt too wide) in paragraph at lines 289--289
+[]\OT1/cmr/bx/n/12 Cloud-based Low-Power Long Range IoT Net-work for Soil Mois-
+
+ []
+
+[17] [18] [19] [20] [21] (./Final-report-Semester-1.bbl [22]) [23]
 (./Final-report-Semester-1.aux)
  ***********
 LaTeX2e <2023-06-01>
@@ -361,7 +391,7 @@ L3 programming layer <2023-06-05>
 Here is how much of TeX's memory you used:
  2434 strings out of 475735
  41262 string characters out of 5784787
- 1864759 words of memory out of 5000000
+ 1863759 words of memory out of 5000000
  23167 multiletter control sequences out of 15000+600000
  519239 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -371,10 +401,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfrm1200.pfb>
-Output written on Final-report-Semester-1.pdf (22 pages, 573500 bytes).
+Output written on Final-report-Semester-1.pdf (30 pages, 594744 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
