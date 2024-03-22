@@ -35,9 +35,11 @@
 \contentsline {subsubsection}{\numberline {2.2.23}Study on Precision Agriculture Monitoring Framework Based on WSN}{19}{}%
 \contentsline {subsubsection}{\numberline {2.2.24}Web-Based Smart Farm Data Monitoring System:Prototype}{19}{}%
 \contentsline {subsubsection}{\numberline {2.2.25}Design and Implementation of an IoT-Based System for Monitoring Nutrients and Irrigation in Agricultural Soil}{20}{}%
-\contentsline {subsection}{\numberline {2.3}Summary}{20}{}%
-\contentsline {section}{\numberline {3}Methodology}{21}{}%
-\contentsline {subsection}{\numberline {3.1}Overall System Architecture}{21}{}%
-\contentsline {subsection}{\numberline {3.2}Hardware Architecture}{21}{}%
-\contentsline {subsection}{\numberline {3.3}Software Architecture}{21}{}%
-\contentsline {section}{\numberline {4}References}{22}{}%
+\contentsline {subsubsection}{\numberline {2.2.26}Design and Development of Internet of Things Based Smart Sensors for MOnitoring Agricultural lands}{21}{}%
+\contentsline {subsubsection}{\numberline {2.2.27}Design A Monitoring System for Temperature, Humidity and Soil pH in IOT-Based Onion Cultivation}{22}{}%
+\contentsline {subsection}{\numberline {2.3}Summary}{22}{}%
+\contentsline {section}{\numberline {3}Methodology}{23}{}%
+\contentsline {subsection}{\numberline {3.1}Overall System Architecture}{23}{}%
+\contentsline {subsection}{\numberline {3.2}Hardware Architecture}{23}{}%
+\contentsline {subsection}{\numberline {3.3}Software Architecture}{23}{}%
+\contentsline {section}{\numberline {4}References}{24}{}%
