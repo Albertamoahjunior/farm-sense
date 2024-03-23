@@ -1,8 +1,198 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{firsttest}
-Albert~Amoah Junior.
-\newblock First work.
-\newblock {\em testing}, 2021.
+\bibitem{audyanisa2024design}
+Salsabila Audyanisa and Abdi Darmawan.
+\newblock Design a monitoring system for temperature, humidity and soil ph in
+  iot-based onion cultivation.
+\newblock {\em TEKTONIK: Jurnal Ilmu Teknik}, 1(2):89--101, 2024.
+
+\bibitem{bandara2020smart}
+Tharindu~Madushan Bandara, Wanninayaka Mudiyanselage, and Mansoor Raza.
+\newblock Smart farm and monitoring system for measuring the environmental
+  condition using wireless sensor network-iot technology in farming.
+\newblock In {\em 2020 5th international conference on innovative technologies
+  in intelligent systems and industrial applications (CITISIA)}, pages 1--7.
+  IEEE, 2020.
+
+\bibitem{8373022}
+Jan Bauer and Nils Aschenbruck.
+\newblock Design and implementation of an agricultural monitoring system for
+  smart farming.
+\newblock In {\em 2018 IoT Vertical and Topical Summit on Agriculture - Tuscany
+  (IOT Tuscany)}, pages 1--6, 2018.
+
+\bibitem{bhattacherjee2020cloud}
+Subhra~Shankha Bhattacherjee, S~Shreeshan, Gattu Priyanka, Akshay~Ramesh
+  Jadhav, P~Rajalakshmi, and Jana Kholova.
+\newblock Cloud based low-power long-range iot network for soil moisture
+  monitoring in agriculture.
+\newblock In {\em 2020 IEEE Sensors Applications Symposium (SAS)}, pages 1--5.
+  IEEE, 2020.
+
+\bibitem{bongulto2016design}
+Jaina Nica~C Bongulto, AYLO Cabato, and Rionel~Belen Caldo.
+\newblock Design and implementation of smart farm data logging and monitoring
+  system.
+\newblock {\em Laguna J. Eng. Comput. Stud}, 3(3):42--54, 2016.
+
+\bibitem{cahyani2023connectivity}
+Denis~Eka Cahyani, Langlang Gumilar, Arif~Nur Afandi, Ahmad Asri~Bin Abd~Samat,
+  Achmad Safi'i, and M~Wahyu Prasetyo.
+\newblock Connectivity of agricultural soil fertility online monitoring devices
+  with smartphones.
+\newblock In {\em 2023 8th International Conference on Electrical, Electronics
+  and Information Engineering (ICEEIE)}, pages 1--6. IEEE, 2023.
+
+\bibitem{chakraborty2022iot}
+Arindom Chakraborty, Monirul Islam, Animesh Dhar, and Mohammad~Shahadat
+  Hossain.
+\newblock Iot based greenhouse environment monitoring and smart irrigation
+  system for precision farming technology.
+\newblock In {\em 2022 International Conference on Innovations in Science,
+  Engineering and Technology (ICISET)}, pages 123--128. IEEE, 2022.
+
+\bibitem{choi2020light}
+Jaekuk Choi, Dongsun Lim, Sangwon Choi, Jeonghyeon Kim, and Jonghoek Kim.
+\newblock Light control smart farm monitoring system with reflector control.
+\newblock In {\em 2020 20th International Conference on Control, Automation and
+  Systems (ICCAS)}, pages 69--74. IEEE, 2020.
+
+\bibitem{7302210}
+Tuan Dinh~Le and Dat~Ho Tan.
+\newblock Design and deploy a wireless sensor network for precision
+  agriculture.
+\newblock In {\em 2015 2nd National Foundation for Science and Technology
+  Development Conference on Information and Computer Science (NICS)}, pages
+  294--299, 2015.
+
+\bibitem{ezhilazhahi2017iot}
+AM~Ezhilazhahi and PTV Bhuvaneswari.
+\newblock Iot enabled plant soil moisture monitoring using wireless sensor
+  networks.
+\newblock In {\em 2017 Third International Conference on Sensing, Signal
+  Processing and Security (ICSSS)}, pages 345--349. IEEE, 2017.
+
+\bibitem{gomathi2022design}
+S~Gomathi, Kumar~V Raj, and R~Vishnu Aakash.
+\newblock Design and implementation of an iot-based system for monitoring
+  nutrients and irrigation in agricultural soil.
+\newblock In {\em 2022 1st International Conference on Computational Science
+  and Technology (ICCST)}, pages 786--792. IEEE, 2022.
+
+\bibitem{keshtgary2012efficient}
+Manijeh Keshtgary and Amene Deljoo.
+\newblock An efficient wireless sensor network for precision agriculture.
+\newblock {\em Canadian Journal on Multimedia and Wireless Networks},
+  3(1):1--5, 2012.
+
+\bibitem{li2008study}
+Xuemei Li, Yuyan Deng, and Lixing Ding.
+\newblock Study on precision agriculture monitoring framework based on wsn.
+\newblock In {\em 2008 2nd International Conference on Anti-counterfeiting,
+  Security and Identification}, pages 182--185. IEEE, 2008.
+
+\bibitem{liu2017design}
+Lijun Liu and Yang Zhang.
+\newblock Design of greenhouse environment monitoring system based on wireless
+  sensor network.
+\newblock In {\em 2017 3rd International Conference on Control, Automation and
+  Robotics (ICCAR)}, pages 463--466. IEEE, 2017.
+
+\bibitem{7381396}
+Marwa Mekki, Osman Abdallah, Magdi B.~M. Amin, Moez Eltayeb, Tafaoul
+  Abdalfatah, and Amin Babiker.
+\newblock Greenhouse monitoring and control system based on wireless sensor
+  network.
+\newblock In {\em 2015 International Conference on Computing, Control,
+  Networking, Electronics and Embedded Systems Engineering (ICCNEEE)}, pages
+  384--387, 2015.
+
+\bibitem{mico2016web}
+Onine~M Mico, PM~Bryan Santos, and Rionel~B Caldo.
+\newblock Web-based smart farm data monitoring system: A prototype.
+\newblock {\em J. Eng. Comput. Stud.}, 3(3), 2016.
+
+\bibitem{mladenova2022design}
+Tsvetelina Mladenova, Irena Valova, and Nikolay Valov.
+\newblock Design of a smart system for monitoring and management of pastures
+  and meadows: The relational database approach.
+\newblock In {\em 2022 8th International Conference on Energy Efficiency and
+  Agricultural Engineering (EE\&AE)}, pages 1--5. IEEE, 2022.
+
+\bibitem{6808017}
+S.~R. Nandurkar, V.~R. Thool, and R~C. Thool.
+\newblock Design and development of precision agriculture system using wireless
+  sensor network.
+\newblock In {\em 2014 First International Conference on Automation, Control,
+  Energy and Systems (ACES)}, pages 1--6, 2014.
+
+\bibitem{paul2021strategic}
+Timothy~Dhayakar Paul and Vimalathithan Rathinasabapathy.
+\newblock A strategic agricultural field monitoring using internet of things
+  enabled wireless sensor network.
+\newblock In {\em 2021 International Conference on Advancements in Electrical,
+  Electronics, Communication, Computing and Automation (ICAECA)}, pages 1--6.
+  IEEE, 2021.
+
+\bibitem{7370624}
+Minwoo Ryu, Jaeseok Yun, Ting Miao, Il-Yeup Ahn, Sung-Chan Choi, and Jaeho Kim.
+\newblock Design and implementation of a connected farm for smart farming
+  system.
+\newblock In {\em 2015 IEEE SENSORS}, pages 1--4, 2015.
+
+\bibitem{sabu2023design}
+Dhiya Sabu, Paramasivam Alagumariappan, Vijayalakshmi Sankaran, and Pavan Sai
+  Kiran~Reddy Pittu.
+\newblock Design and development of internet of things-based smart sensors for
+  monitoring agricultural lands.
+\newblock {\em Engineering Proceedings}, 58(1):13, 2023.
+
+\bibitem{saito2008long}
+Y~Saito, T~Suzuki, T~Fukatsu, and M~Hirafuji.
+\newblock A long-term field monitoring system with field servers at a grape
+  farm.
+\newblock In {\em International Symposium on Application of Precision
+  Agriculture for Fruits and Vegetables 824}, pages 183--190, 2008.
+
+\bibitem{10435334}
+Dezdyta~Poszarevac Saputra, M.B. Nugraha, Marojahan Tampubolon, and
+  Kahfi~Sabillah Arhan.
+\newblock Design and development of soil monitoring system for precision
+  farming on small-scale outdoor farm.
+\newblock In {\em 2023 3rd International Conference on Smart Cities, Automation
+  & Intelligent Computing Systems (ICON-SONICS)}, pages 212--217, 2023.
+
+\bibitem{schlagmann2023greenhouse}
+Moritz Schlagmann, Joseph Stoenner, Franz Selbmann, Stefan Hess, and Thomas
+  Otto.
+\newblock Greenhouse monitoring with biocompatible humidity sensor for smart
+  farming.
+\newblock In {\em 2023 Smart Systems Integration Conference and Exhibition
+  (SSI)}, pages 1--6. IEEE, 2023.
+
+\bibitem{sridhar2020design}
+B~Sridhar, S~Sridhar, and V~Nanchariah.
+\newblock Design of novel wireless sensor network enabled iot based smart
+  health monitoring system for thicket of trees.
+\newblock In {\em 2020 Fourth International Conference on Computing
+  Methodologies and Communication (ICCMC)}, pages 872--875. IEEE, 2020.
+
+\bibitem{torabi2023greenhouse}
+Samira Torabi and Lu~Fan.
+\newblock Greenhouse monitoring with wireless sensor network.
+\newblock {\em Big Data and Computing Visions}, 3(1):21--25, 2023.
+
+\bibitem{vijayakumar2011preliminary}
+S~Vijayakumar and J~Nelson Rosario.
+\newblock Preliminary design for crop monitoring involving water and fertilizer
+  conservation using wireless sensor networks.
+\newblock In {\em 2011 IEEE 3rd International Conference on Communication
+  Software and Networks}, pages 662--666. IEEE, 2011.
+
+\bibitem{zagade2012wireless}
+SU~Zagade and RS~Kawitkar.
+\newblock Wireless sensor network for greenhouse.
+\newblock {\em International Journal of Science and Technology}, 2(3):130133,
+  2012.
 
 \end{thebibliography}

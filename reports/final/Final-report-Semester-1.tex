@@ -103,8 +103,9 @@ The focus of this project is to design a system that can be used to monitor any 
 \begin{itemize}
 \item[--] The system will measure specific soil and atmospheric factors. Atmospheric factors include: atmospheric temperature, humidity, and rain/precipitation. Soil factors also include: soil pH, soil moisture, soil temperature and supply of specific nutrients.
 \item[--] The whole system is a Wireless Sensor Network(WSN) based implementation been used to  monitor the farm.
-\item[--] The system will also analyze the information gathered via the sensors and then sent to a cloud service for processing. Based on the information derived, farmers will be advised on what to do.
+\item[--] The system will also take the information gathered via the sensors and then sent to a cloud service for processing. Based on the information derived, farmers will be advised on what to do.
 \item[--] The system will have a frontend interface where information derived can be displayed and farmers recieve advise.
+\item[--] The system will also offer sms service where sms can be sent to farm owners of the conditions of their farm. 
 \end{itemize}
 
 \newpage
@@ -158,11 +159,10 @@ Overall, farm monitoring systems enable farmers to make more informed decisions,
 \end{itemize}
 \item \textbf{Conclusion}
 \begin{itemize}
-	\item[--] Summary of the study.
-	\item[--] Future scope of the project.
+\item[--] Summary of the study.
+\item[--] Future scope of the project.
 \end{itemize}
 \end{enumerate}
-\newpage
 
 \section{Literature Review}
 \subsection{Introduction}
@@ -342,6 +342,18 @@ Two different IoT clouds, namely the ThingSpeak platform and the custom-designed
 In an article by Salsabila Audyanisa and Abdi Darmawan \cite{audyanisa2024design} from Darmajaya Institute of Informatics and Business discuss a farming monitoring system tailored for onion cultivation.
 The system in this study is divided into three parts, including an input system consisting of a soil pH sensor and a DHT 11 sensor. The microntroller used is a minimum board system NodeMCU ESP8266. The output system in the form of a water pump and Android application is used as a control and monitoring of sensor readings. The soil pH sensor serves as a measure of the value of the soil in onion plants. The DHT 11 sensor is used as a temperature and humidity reader. The microcontroller system in this design uses the NodeMCU minimum system board ESP8266. The relay functions as the ON and OFF water pump applied to the system. The application functions as a minitoring of soil pH sensor readings, DHT 11 sensors and water pump controls.
 
+\subsubsection{Design and Development of Soil Monitoring System for Precision Farming On Small-Scale Outdoor Farm}
+This paper was authored by Dezdyta Poszarevac Saputra, M.B. Nugraha, Marojahan Tampubolon, Kahfi Sabillah Arhan \cite{10435334} from Electrical Engineering, Universitas Multimedia Nusantara, Tangerang, Indonesia.
+Their research consisted of a subsystem for monitoring plant conditions and nutrition and a user interface (UI) subsystem. This product has a subsystem for monitoring soil conditions and plant nutrition with parameters measured, namely ambient temperature, soil moisture, air humidity, light, and CO2 levels, so that plants’ water and nutrient needs can be met to fulfil the physical demands of vegetable crops. It can be fulfilled according to the parameters set and measured by the sensor. The user interface subsystem functions to display data from sensor parameters of ambient temperature, soil humidity, air humidity, light intensity, CO2 levels, and NPK through the Node-RED server.\\
+The system developed in this research offers a valuable advantage by effectively addressing user requirements in an automated or smart farming industry scene. When users seek information regarding the physical condition of their plants, they can utilize various sensors to obtain precise measurements. The DHT-11 sensor provides data of environmental temperature, the YL-69 sensor offers soil moisture measurements in percentage units, while air humidity is recorded by the DHT-11 sensor. CO2 levels are monitored through the MQ-135 sensor. Sunlight intensity readings, gathered via the BH1750 sensor, are expressed in lux units, and plant’s nutrition in NPK values are assessed using custom sensors from Doctor Plant products(). These sensors collectively yield real-time measurement data, which is conveniently presented to users through the user interface subsystem. The user interface effectively showcases information related to ambient temperature, soil humidity, air humidity, light intensity, CO2 levels, and NPK values, seamlessly delivered via the Node-RED server.
+
+\subsubsection{IOT Based Real-Time Monitoring System for Precision Agriculture}
+This paper is authored by Surbhi Vijh, Arpita, Jyoti Prakash Bora, Prateek Kumar Gupta from School of Engineering and Technology, Sharda University, Greater Noida, India and Sumit Kumar from ASET, Amity University, Noida, Uttar Pradesh \cite{10463399}\\
+The project uses a DHTll Humidity Temperature Sensor to track humidity as well as air temperature, and a capacitive soil moisture sensor to measure soil moisture levels. A 5V power relay-controlled water pump automates the irrigation process. The sensor makes sure that the soil stays sufficiently moist by activating a water pump to start irrigation whenever the moisture content of the soil drops below a predetermined level. An online Thing speak Server facilitates the system's real-time monitoring feature  with the help of this server, farmers can remotely monitor and control their agricultural operations from any location in the globe. They can also use an easy-to-use online interface to make informed decisions about irrigation and to closely monitor soil conditions.
+
+\subsubsection{Enabling Smart Agriculture: An IoT-Based Framework for Real-Time Monitoring and Analysis of Agricultural Data}
+This paper was authored by Faruk Enes Oguz, Mahmut Nedim Ekersular, Kubilay Muhammed Sunnetci and Ahmet Alkan. \cite{oguz2024enabling}
+In this study, an IoT-based framework is proposed for agricultural data monitoring. Light, temperature–pressure, smoke, humidity, and soil dryness values can be measured from GY-30, BME280, MQ-2, DHT11, and YL-69, respectively. An ESP-32S development board is used to collect data from sensors, and this board is coded using Arduino IDE. Subsequently, using ESP-32S, it is sent to the ThingSpeak cloud service provided by MATLAB via a Wi-Fi connection. Thus, these data can be easily transferred to MATLAB. We create a user-friendly Graphical User Interface application so that the data can be monitored and analyzed in MATLAB as well as ThingSpeak. This application allows users to monitor the data flow in real time and can easily provide the requested values such as maximum, minimum, mean, standard deviation, and current with the help of a button. In addition, the proposed system sends an e-mail to the user when soil dryness and smoke values exceed a certain threshold value.
 \subsection{Summary}
 \newpage
 

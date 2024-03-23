@@ -126,6 +126,13 @@ S.~R. Nandurkar, V.~R. Thool, and R~C. Thool.
 \newblock In {\em 2014 First International Conference on Automation, Control,
   Energy and Systems (ACES)}, pages 1--6, 2014.
 
+\bibitem{oguz2024enabling}
+Faruk~Enes Oguz, Mahmut~Nedim Ekersular, Kubilay~Muhammed Sunnetci, and Ahmet
+  Alkan.
+\newblock Enabling smart agriculture: An iot-based framework for real-time
+  monitoring and analysis of agricultural data.
+\newblock {\em Agricultural Research}, pages 1--12, 2024.
+
 \bibitem{paul2021strategic}
 Timothy~Dhayakar Paul and Vimalathithan Rathinasabapathy.
 \newblock A strategic agricultural field monitoring using internet of things
@@ -154,6 +161,14 @@ Y~Saito, T~Suzuki, T~Fukatsu, and M~Hirafuji.
 \newblock In {\em International Symposium on Application of Precision
   Agriculture for Fruits and Vegetables 824}, pages 183--190, 2008.
 
+\bibitem{10435334}
+Dezdyta~Poszarevac Saputra, M.B. Nugraha, Marojahan Tampubolon, and
+  Kahfi~Sabillah Arhan.
+\newblock Design and development of soil monitoring system for precision
+  farming on small-scale outdoor farm.
+\newblock In {\em 2023 3rd International Conference on Smart Cities, Automation
+  & Intelligent Computing Systems (ICON-SONICS)}, pages 212--217, 2023.
+
 \bibitem{schlagmann2023greenhouse}
 Moritz Schlagmann, Joseph Stoenner, Franz Selbmann, Stefan Hess, and Thomas
   Otto.
@@ -180,6 +195,12 @@ S~Vijayakumar and J~Nelson Rosario.
   conservation using wireless sensor networks.
 \newblock In {\em 2011 IEEE 3rd International Conference on Communication
   Software and Networks}, pages 662--666. IEEE, 2011.
+
+\bibitem{10463399}
+Surbhi Vijh, Arpita, Jyoti~Prakash Bora, Prateek~Kumar Gupta, and Sumit Kumar.
+\newblock Iot based real-time monitoring system for precision agriculture.
+\newblock In {\em 2024 14th International Conference on Cloud Computing, Data
+  Science & Engineering (Confluence)}, pages 53--58, 2024.
 
 \bibitem{zagade2012wireless}
 SU~Zagade and RS~Kawitkar.
