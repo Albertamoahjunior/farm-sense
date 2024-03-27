@@ -1,0 +1,5 @@
+ppt-5 == it is good.
+ppt-3 == very bad.
+ppt-2 == not so good.
+ppt-1 == nor convinced.
+ppt-0 == good, but font is not so good.
