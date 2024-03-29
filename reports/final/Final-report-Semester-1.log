@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.1.1)  28 MAR 2024 14:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.1.1)  29 MAR 2024 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -319,97 +319,101 @@ or Mon-
 \tf@toc=\write3
 \openout3 = `Final-report-Semester-1.toc'.
 
- [6]
-Underfull \hbox (badness 10000) in paragraph at lines 61--70
+ [6] (./Final-report-Semester-1.lof)
+\tf@lof=\write4
+\openout4 = `Final-report-Semester-1.lof'.
+
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 63--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--70
+Underfull \hbox (badness 10000) in paragraph at lines 63--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--70
+Underfull \hbox (badness 10000) in paragraph at lines 63--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--70
+Underfull \hbox (badness 10000) in paragraph at lines 63--72
 
  []
 
 
-Overfull \hbox (7.54884pt too wide) in paragraph at lines 61--70
+Overfull \hbox (7.54884pt too wide) in paragraph at lines 63--72
 \OT1/cmr/m/n/12 press-ing is-sue of hunger and its far-reaching con-se-quences 
 on hu-man-ity is paramount.
  []
 
 [1] [2{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
 [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 120--133
+Underfull \hbox (badness 10000) in paragraph at lines 122--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--133
+Underfull \hbox (badness 10000) in paragraph at lines 122--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--133
+Underfull \hbox (badness 10000) in paragraph at lines 122--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--133
+Underfull \hbox (badness 10000) in paragraph at lines 122--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--133
+Underfull \hbox (badness 10000) in paragraph at lines 122--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--133
+Underfull \hbox (badness 10000) in paragraph at lines 122--135
 
  []
 
 [5] [6] [7] [8] [9] [10] [11] [12]
-Overfull \hbox (14.94731pt too wide) in paragraph at lines 244--244
+Overfull \hbox (14.94731pt too wide) in paragraph at lines 246--246
 []\OT1/cmr/bx/n/12 PRELIMINARY DE-SIGN FOR CROP MON-I-TOR-ING IN-VOLV-
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 259--263
+Underfull \hbox (badness 10000) in paragraph at lines 261--265
 
  []
 
 [14] [15]
-Overfull \hbox (1.86974pt too wide) in paragraph at lines 284--289
+Overfull \hbox (1.86974pt too wide) in paragraph at lines 286--291
 \OT1/cmr/m/n/12 The study uti-lizes a minia-tur-ized leaf wet-ness sen-sor in-t
 e-grated with an application-
  []
 
 [16]
-Overfull \hbox (0.49213pt too wide) in paragraph at lines 295--295
+Overfull \hbox (0.49213pt too wide) in paragraph at lines 297--297
 []\OT1/cmr/bx/n/12 Cloud-based Low-Power Long Range IoT Net-work for Soil Mois-
 
  []
 
 [17] [18] [19] [20]
 ! Misplaced alignment tab character &.
-l.336 ...at Vel Tech Rangarajan Dr. Sagunthala R &
+l.338 ...at Vel Tech Rangarajan Dr. Sagunthala R &
                                                    D Institute of Science an...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -419,18 +423,130 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 [21] [22]
-Overfull \hbox (4.42555pt too wide) in paragraph at lines 365--365
+Overfull \hbox (4.42555pt too wide) in paragraph at lines 367--367
 []\OT1/cmr/bx/n/12 Enabling Smart Agri-cul-ture: An IoT-Based Frame-work for Re
 al-
  []
 
-[23] [24] [25] (./Final-report-Semester-1.bbl
+[23] [24]
+<./images///final-architecture.jpg, id=110, 799.98875pt x 783.92876pt>
+File: ./images///final-architecture.jpg Graphic file (type jpg)
+<use ./images///final-architecture.jpg>
+Package pdftex.def Info: ./images///final-architecture.jpg  used on input line 
+380.
+(pdftex.def)             Requested size: 399.9934pt x 391.96342pt.
+ [25 <./images///final-architecture.jpg>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.386 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.387 \subsubsection
+                    {Management Node}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.388 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.389 \subsubsection
+                    {Cloud Services}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.390 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.391 \subsubsection
+                    {Power Supply}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.392 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.393 \subsubsection
+                    {Client Interface}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[26] (./Final-report-Semester-1.bbl
 Underfull \hbox (badness 3989) in paragraph at lines 37--43
 []\OT1/cmr/m/n/12 Subhra Shankha Bhat-tacher-jee, S Shree-shan, Gattu Priyanka,
  Ak-
  []
 
-[26] [27]
+[27] [28]
 ! Misplaced alignment tab character &.
 l.182   &
           Intelligent Computing Systems (ICON-SONICS)}, pages 212--217, 2023.
@@ -451,29 +567,29 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[28]) [29] (./Final-report-Semester-1.aux)
+[29]) [30] (./Final-report-Semester-1.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2455 strings out of 475735
- 41628 string characters out of 5784787
+ 2475 strings out of 475735
+ 42267 string characters out of 5784787
  1863759 words of memory out of 5000000
- 23188 multiletter control sequences out of 15000+600000
+ 23205 multiletter control sequences out of 15000+600000
  519239 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,6n,69p,928b,241s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 61i,7n,69p,928b,241s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfrm1200.pfb>
-Output written on Final-report-Semester-1.pdf (36 pages, 610498 bytes).
+Output written on Final-report-Semester-1.pdf (38 pages, 632862 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
+ 157 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
