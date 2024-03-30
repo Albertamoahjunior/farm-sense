@@ -377,20 +377,37 @@ Overall, the IoT-based framework presented in the study offers a comprehensive s
 \section{Methodology}
 \subsection{Overall System Architecture}
 \begin{figure}[h]
-\includegraphics[scale=0.5]{{/final-architecture.jpg}}
+\includegraphics[scale=0.5]{{/System-Architecture.jpg}}
 \caption{System Architecture}
 \end{figure}
-In the above image is the block diagram of the system architecture of the farm monitoring system. The system is made up of five(5) major blocks. The Sensor node, The power supply unit, the cloud service been used and the client interface. All these separate parts come together to monitor, transmit and analyse the vital farm conditions in scope. The sensor node monitors the various factors in scope, the management node is collects data from the sensor node and sends them to the cloud service from which information is sent to the clients end.  
+In the above image is the block diagram of the system architecture of the farm monitoring system. The system is comprised of five (5) major blocks: the Sensor node, the power supply unit, the cloud service being used, and the client interface. All these separate parts come together to monitor, transmit, and analyze the vital farm conditions in scope.\\
+
+The sensor node monitors various factors in scope, while the management node collects data from the sensor node and sends it to the cloud service, from which information is then sent to the client's end.
 \newpage
 \subsubsection{Sensor Node}
-\\ \\
+\begin{figure}[h]
+\includegraphics[scale=0.5]{{/Sensor-node.jpg}}
+\caption{Sensor Node}
+\end{figure}
+The sensor node is made up of eight (8) parts. The central unit, being the intelligent unit, consists of a microcontroller. The sensor node comes with a plethora of sensors and indicators to indicate working modes. Additionally, there is a power supply unit that supplies power to all the components through the central unit.\\
+
+The central unit, or the intelligent unit, gathers information from all the sensor modules and then transmits it over WiFi to the management node in the system.\\
+
+There are two groups of sensors: soil sensors and atmospheric sensors. The atmospheric sensors measure atmospheric conditions, while the soil sensors measure soil conditions. Among the atmospheric sensors is the atmospheric temperature sensor node, which monitors atmospheric temperature and sends signals to the central unit. The rain/humidity sensor detects rain and humidity, sending signals to the central unit. Additionally, there is the soil temperature sensor to check the temperature of the soil. Furthermore, there is the Soil pH Sensor, which can be used to measure the acidity of the soil, and the soil moisture sensor, which is used to check the amount of moisture in the soil.
+
 \subsubsection{Management Node}
-\\ \\
+The system is built such that for every four or fewer sensor nodes, there is a management node set to manage them. The management node is in charge of receiving data from the sensor nodes, refining the data, and sending it to the cloud service.
+
 \subsubsection{Cloud Services}
-\\ \\
+The cloud services are in charge of the data analysis of the farm conditions data sent via the internet to them. Upon the analysis made by the cloud services, recommendations will be formulated for farmers to follow to achieve high crop yield and avoid wasting resources. The cloud service also serves as the backend for the mobile app user interface. Additionally, the cloud service takes care of sending SMS messages to users using SMS APIs.
+
 \subsubsection{Power Supply}
-\\ \\
+The power supply unit consists of a battery and a solar panel. The solar panel charges the battery, and the power from the battery is utilized to power the sensor or management node. Each node has its own power supply unit, which is responsible for meeting the power needs of its components.
+
 \subsubsection{Client Interface}
+All the information gathered by the sensors and analyzed by the cloud services will go to waste if there is no way of presenting the information derived from the analysis and the recommendations from the cloud services.\\
+
+The client interface consists of two parts. Considering our niche/market in Ghana and other African countries, an SMS feature was added. Information about the farm conditions and recommendations are sent through SMS. Additionally, there is the Graphic User Interface (GUI) which provides more detailed information about the farm condition and recommends habits that will increase crop yield based on accurate data.
 \newpage
 
 \section{References}
