@@ -92,17 +92,14 @@ By addressing these challenges, a well-designed system that can monitor vital so
 \subsubsection{General Objectives}
 The project's objective is to develop a streamlined approach for deploying sensors to monitor critical soil and atmospheric conditions essential for plant growth. This involves identifying the optimal quantity, types, and placements of sensors to collect data on variables such as moisture levels, nutrient content, temperature, humidity, and atmospheric gases. Ultimately, the aim is to equip farmers with timely information to refine their farming techniques, resulting in higher crop yields and quality, decreased resource consumption, and reduced environmental impact.
 \subsubsection{Specific Objectives}
-This project aims to achieve several key objectives:\\
+This project aims to achieve the following key objectives:\\
 \begin{enumerate}
-\item \textbf{Increased efficiency and productivity:}
-\begin{enumerate}
- \item Optimize resource use (water, fertilizer, energy) based on real-time data.
- \item Automate tasks like irrigation and climate control to save time and labor.
- \item Improve yield and crop quality through early detection of problems.
-\end{enumerate}
- 
-\item \textbf{Reduced environmental impact:} Minimize water usage and fertilizer runoff through precise application.\\
-\item \textbf{Improved decision-making:} Facilitate informed decision-making for improved farm management and profitability.
+\item \textbf{Build a Wireless Sensor Network}\\
+We will build a wireless sensor network to monitor the factors of concern in the farm.
+\item \textbf{Establish a cloud service for analysis}\\
+We will set up a cloud service to analyse data collected from the farm
+\item \textbf{Build a mobile app}
+\item \textbf{Build SMS setup}
 \end{enumerate}
 
 \newpage
@@ -141,7 +138,7 @@ Overall, farm monitoring systems enable farmers to make more informed decisions,
 \item \textbf{Introduction}
 	\begin{itemize}
 	\item[--] Aim and objectives of the project.
-	\item[--] Background information on how certain soil and atmospheric factors affect plant    growth.
+	\item[--] Background information on how certain soil and atmospheric factors affect plant growth.
 	\end{itemize}
 \item \textbf{Farm monitoring systems}
 \begin{itemize}
@@ -374,12 +371,16 @@ Overall, the IoT-based framework presented in the study offers a comprehensive s
 \newpage
 
 \section{Methodology}
-\subsection{Overall System Architecture}
+\subsection{Overall System Architecture and Block Diagram}
 \begin{figure}[h]
-\includegraphics[scale=0.5]{{/System-Architecture.jpg}}
+\includegraphics[scale=0.4]{{/architecture.jpg}}
 \caption{System Architecture}
 \end{figure}
-In the above image is the block diagram of the system architecture of the farm monitoring system. The system is comprised of five (5) major blocks: the Sensor node, the power supply unit, the cloud service being used, and the client interface. All these separate parts come together to monitor, transmit, and analyze the vital farm conditions in scope.\\
+\begin{figure}[a]
+\includegraphics[scale=0.5]{{/System-Architecture.jpg}}
+\caption{System Block Diagram}
+\end{figure}
+In the above image is a diagram of the system architecture of the farm monitoring system. The system is comprised of five (5) major parts: the Sensor node, the power supply unit, the cloud service being used, and the client interface. All these separate parts come together to monitor, transmit, and analyze the vital farm conditions in scope.\\
 
 The sensor node monitors various factors in scope, while the management node collects data from the sensor node and sends it to the cloud service, from which information is then sent to the client's end.
 \newpage
@@ -407,8 +408,10 @@ The power supply unit consists of a battery and a solar panel. The solar panel c
 All the information gathered by the sensors and analyzed by the cloud services will go to waste if there is no way of presenting the information derived from the analysis and the recommendations from the cloud services.\\
 
 The client interface consists of two parts. Considering our niche/market in Ghana and other African countries, an SMS feature was added. Information about the farm conditions and recommendations are sent through SMS. Additionally, there is the Graphic User Interface (GUI) which provides more detailed information about the farm condition and recommends habits that will increase crop yield based on accurate data.
-\newpage
 
+
+
+\newpage
 \section{References}
 \bibliographystyle{plain}
 \bibliography{references}

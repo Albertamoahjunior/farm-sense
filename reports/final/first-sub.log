@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.1.1)  28 APR 2024 09:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.1.1)  29 APR 2024 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -235,16 +235,6 @@ or Mon-
 \openout4 = `first-sub.lof'.
 
  [3]
-
-LaTeX Warning: Citation `unhunger' on page 1 undefined on input line 64.
-
-
-LaTeX Warning: Citation `uninnovation' on page 1 undefined on input line 66.
-
-
-LaTeX Warning: Citation `unresponsible' on page 1 undefined on input line 68.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 62--71
 
  []
@@ -275,176 +265,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-
- []
-
 [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 121--134
+Underfull \hbox (badness 10000) in paragraph at lines 118--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--134
+Underfull \hbox (badness 10000) in paragraph at lines 118--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--134
+Underfull \hbox (badness 10000) in paragraph at lines 118--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--134
+Underfull \hbox (badness 10000) in paragraph at lines 118--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--134
+Underfull \hbox (badness 10000) in paragraph at lines 118--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--134
+Underfull \hbox (badness 10000) in paragraph at lines 118--131
 
  []
 
-[5] [6]
-
-LaTeX Warning: Citation `7302210' on page 7 undefined on input line 182.
-
-
-LaTeX Warning: Citation `6808017' on page 7 undefined on input line 187.
-
-[7]
-
-LaTeX Warning: Citation `7370624' on page 8 undefined on input line 193.
-
-
-LaTeX Warning: Citation `8373022' on page 8 undefined on input line 198.
-
-[8]
-
-LaTeX Warning: Citation `bongulto2016design' on page 9 undefined on input line 
-204.
-
-
-LaTeX Warning: Citation `liu2017design' on page 9 undefined on input line 210.
-
-[9]
-
-LaTeX Warning: Citation `zagade2012wireless' on page 10 undefined on input line
- 216.
-
-
-LaTeX Warning: Citation `7381396' on page 10 undefined on input line 222.
-
-[10]
-
-LaTeX Warning: Citation `torabi2023greenhouse' on page 11 undefined on input li
-ne 228.
-
-
-LaTeX Warning: Citation `saito2008long' on page 11 undefined on input line 232.
-
-
-[11]
-
-LaTeX Warning: Citation `keshtgary2012efficient' on page 12 undefined on input 
-line 240.
-
-
-Overfull \hbox (14.94731pt too wide) in paragraph at lines 245--245
+[5] [6] [7] [8] [9] [10] [11] [12]
+Overfull \hbox (14.94731pt too wide) in paragraph at lines 242--242
 []\OT1/cmr/bx/n/12 PRELIMINARY DE-SIGN FOR CROP MON-I-TOR-ING IN-VOLV-
  []
 
-
-LaTeX Warning: Citation `vijayakumar2011preliminary' on page 12 undefined on in
-put line 246.
-
-[12]
-
-LaTeX Warning: Citation `paul2021strategic' on page 13 undefined on input line 
-253.
-
 [13]
-
-LaTeX Warning: Citation `bandara2020smart' on page 14 undefined on input line 2
-60.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--264
+Underfull \hbox (badness 10000) in paragraph at lines 257--261
 
  []
 
-
-LaTeX Warning: Citation `choi2020light' on page 14 undefined on input line 266.
-
-
-[14]
-
-LaTeX Warning: Citation `ezhilazhahi2017iot' on page 15 undefined on input line
- 272.
-
-[15]
-
-LaTeX Warning: Citation `sridhar2020design' on page 16 undefined on input line 
-278.
-
-
-LaTeX Warning: Citation `schlagmann2023greenhouse' on page 16 undefined on inpu
-t line 285.
-
-
-Overfull \hbox (1.86974pt too wide) in paragraph at lines 285--290
+[14] [15]
+Overfull \hbox (1.86974pt too wide) in paragraph at lines 282--287
 \OT1/cmr/m/n/12 The study uti-lizes a minia-tur-ized leaf wet-ness sen-sor in-t
 e-grated with an application-
  []
 
 [16]
-
-LaTeX Warning: Citation `mladenova2022design' on page 17 undefined on input lin
-e 292.
-
-
-Overfull \hbox (0.49213pt too wide) in paragraph at lines 296--296
+Overfull \hbox (0.49213pt too wide) in paragraph at lines 293--293
 []\OT1/cmr/bx/n/12 Cloud-based Low-Power Long Range IoT Net-work for Soil Mois-
 
  []
 
-
-LaTeX Warning: Citation `bhattacherjee2020cloud' on page 17 undefined on input 
-line 301.
-
-[17]
-
-LaTeX Warning: Citation `cahyani2023connectivity' on page 18 undefined on input
- line 309.
-
-[18]
-
-LaTeX Warning: Citation `chakraborty2022iot' on page 19 undefined on input line
- 315.
-
-
-LaTeX Warning: Citation `li2008study' on page 19 undefined on input line 320.
-
-
-LaTeX Warning: Citation `mico2016web' on page 19 undefined on input line 325.
-
-[19]
-
-LaTeX Warning: Citation `gomathi2022design' on page 20 undefined on input line 
-331.
-
-[20]
-
-LaTeX Warning: Citation `sabu2023design' on page 21 undefined on input line 337
-.
-
+[17] [18] [19] [20]
 ! Misplaced alignment tab character &.
-l.337 ...at Vel Tech Rangarajan Dr. Sagunthala R &
+l.334 ...at Vel Tech Rangarajan Dr. Sagunthala R &
                                                    D Institute of Science an...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -453,82 +328,109 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-
-LaTeX Warning: Citation `audyanisa2024design' on page 21 undefined on input lin
-e 346.
-
-[21]
-
-LaTeX Warning: Citation `10435334' on page 22 undefined on input line 354.
-
-
-LaTeX Warning: Citation `10463399' on page 22 undefined on input line 361.
-
-[22]
-Overfull \hbox (4.42555pt too wide) in paragraph at lines 366--366
+[21] [22]
+Overfull \hbox (4.42555pt too wide) in paragraph at lines 363--363
 []\OT1/cmr/bx/n/12 Enabling Smart Agri-cul-ture: An IoT-Based Frame-work for Re
 al-
  []
 
-
-LaTeX Warning: Citation `oguz2024enabling' on page 23 undefined on input line 3
-67.
-
 [23] [24]
-<./images///System-Architecture.jpg, id=97, 804.00375pt x 788.9475pt>
-File: ./images///System-Architecture.jpg Graphic file (type jpg)
-<use ./images///System-Architecture.jpg>
-Package pdftex.def Info: ./images///System-Architecture.jpg  used on input line
- 379.
-(pdftex.def)             Requested size: 402.0009pt x 394.47278pt.
+<./images///architecture.jpg, id=97, 1084.05pt x 595.22375pt>
+File: ./images///architecture.jpg Graphic file (type jpg)
+<use ./images///architecture.jpg>
+Package pdftex.def Info: ./images///architecture.jpg  used on input line 376.
+(pdftex.def)             Requested size: 433.61232pt x 238.08528pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
-
- []
-
-[25 <./images///System-Architecture.jpg>]
-<./images///Sensor-node.jpg, id=101, 952.55875pt x 772.8875pt>
-File: ./images///Sensor-node.jpg Graphic file (type jpg)
-<use ./images///Sensor-node.jpg>
-Package pdftex.def Info: ./images///Sensor-node.jpg  used on input line 388.
-(pdftex.def)             Requested size: 476.27821pt x 386.4428pt.
-
-Overfull \hbox (58.02454pt too wide) in paragraph at lines 388--389
+Overfull \hbox (15.35864pt too wide) in paragraph at lines 376--377
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
+! LaTeX Error: Unknown float option `a'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 \begin{figure}[a]
+                       
+Option `a' ignored and `p' used.
+
+<./images///System-Architecture.jpg, id=98, 804.00375pt x 788.9475pt>
+File: ./images///System-Architecture.jpg Graphic file (type jpg)
+<use ./images///System-Architecture.jpg>
+Package pdftex.def Info: ./images///System-Architecture.jpg  used on input line
+ 380.
+(pdftex.def)             Requested size: 402.0009pt x 394.47278pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
+
+ []
+
+[25 <./images///architecture.jpg>] [26 <./images///System-Architecture.jpg>]
+<./images///Sensor-node.jpg, id=105, 952.55875pt x 772.8875pt>
+File: ./images///Sensor-node.jpg Graphic file (type jpg)
+<use ./images///Sensor-node.jpg>
+Package pdftex.def Info: ./images///Sensor-node.jpg  used on input line 389.
+(pdftex.def)             Requested size: 476.27821pt x 386.4428pt.
+
+Overfull \hbox (58.02454pt too wide) in paragraph at lines 389--390
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--394
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
-[26 <./images///Sensor-node.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
+[27 <./images///Sensor-node.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
 
  []
 
-[27]
-No file first-sub.bbl.
-[28] (./first-sub.aux)
+[28] (./first-sub.bbl
+Underfull \hbox (badness 3989) in paragraph at lines 37--43
+[]\OT1/cmr/m/n/12 Subhra Shankha Bhat-tacher-jee, S Shree-shan, Gattu Priyanka,
+ Ak-
+ []
+
+[29] [30]
+! Misplaced alignment tab character &.
+l.182   &
+          Intelligent Computing Systems (ICON-SONICS)}, pages 212--217, 2023.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.215   Science &
+                  Engineering (Confluence)}, pages 53--58, 2024.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[31]) [32] (./first-sub.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 2447 strings out of 475735
- 41547 string characters out of 5784787
+ 2497 strings out of 475735
+ 42579 string characters out of 5784787
  1863759 words of memory out of 5000000
- 23180 multiletter control sequences out of 15000+600000
+ 23227 multiletter control sequences out of 15000+600000
  519239 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,7n,69p,914b,241s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -537,10 +439,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfrm1200.pfb>
-Output written on first-sub.pdf (32 pages, 652389 bytes).
+Output written on first-sub.pdf (36 pages, 733613 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 149 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
