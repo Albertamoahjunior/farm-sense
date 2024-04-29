@@ -1,0 +1,416 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}
+\graphicspath{{./images}}
+
+\geometry{top=3cm}
+
+\title{KWAME NKRUMAH UNIVERSITY OF SCIENCE AND TECHNOLOGY\\
+COLLEGE OF ENGINEERING\\
+DEPARTMENT OF COMPUTER ENGINEERING\\ 
+\includegraphics[scale=0.4]{{/knust.jpg}} 
+\\ALLOCATION OF SENSORS TO MONITOR VITAL SOIL AND ATMOSPHERIC FACTORS THAT AFFECT PLANT GROWTH\\ Case Study: KNUST Peasant Farms}
+\author{Amoah Junior Albert - 3022620\\ Bonney Samuel Nii Awuley - 3028320 \\ Lawson Isaac Nii Lante - 3033820 \\Akaya Uche Daniel - 8252419\\ \\ PROJECT SUPERVISOR\\ Dipl. -Ing Benjamin Nii Kommey}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+\pagenumbering{roman}
+%\begin{center}
+%\textbf{DECLARATION}
+%\end{center}
+%This is to certify that the project title \textbf{``Allocation Of Sensors To Monitor Vital Soil And Atmospheric Factors That Affect Plant Growth''} submitted to Kwame Nkrumah University of Science and Technology, represents our original work. The project was conducted under the supervision of Ing. Benjamin Kommey, within the Department of Computer Engineering in the College of Engineering as a partial requirement for the degree of BSc. Computer Engineering.\\ \\ \\  \\ \\ \\
+%Signature....................................... Date ........................................\\ \\
+%Amoah Albert Junior(Candidate)\\ \\ \\ \\
+%Signature....................................... Date ........................................\\ \\
+%Bonney Nii Awuley(Candidate)\\ \\  \\ \\
+%Signature....................................... Date ........................................\\ \\
+%Lawson Isaac Nii Lante(Candidate)\\ \\ \\ \\
+%Signature....................................... Date ........................................\\ \\
+%Dipl. -Ing Benjamin Nii Kommey(Supervisor)
+%\newpage
+
+%\begin{center}
+%\textbf{DEDICATION}
+%\end{center}
+%This work is dedicated to our families, friends, and mentors who have provided us with unwavering support and guidance throughout this project. Your encouragement and belief in our abilities have been instrumental in helping us to push through the challenges and achieve our goals. We also dedicate this project to future students who will embark on their own academic journeys, hoping that our work will serve as a source of inspiration and knowledge.
+%\newpage
+
+%\begin{center}
+%\textbf{ACKNOWLEGEMENT}
+%\end{center}
+%Our greatest appreciation goes to God almighty for guiding us successfully through this project. Our appreciation goes to Ing Benjamin Kommey, our supervisor, for providing us with proficient direction and ongoing motivation all through the project. His valuable insights and constructive feedback have played a pivotal role in shaping the trajectory and extent of our efforts.\\
+%Finally, we would want to express our deepest appreciation to the staff of the Department of Computer Engineering for their support and resources, which have enabled us to complete this project successfully.\\ Thank you all for your contributions to this project and for helping us achieve our academic goals.
+%\newpage
+
+%\begin{center}
+%\textbf{ABSTRACT}
+%\end{center}
+
+%\newpage
+
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\pagenumbering{arabic}
+\section{Introduction}
+\subsection{Background of Study}
+Farming is a crucial aspect of humanity. Humans cannot live without food, and there can be no food without farms; hence, the necessity of farms. Farmers perform a great service to mankind by tending agricultural farms and ensuring that there is enough food for consumption. For farmers to accomplish their work effectively, there is a need for adequate tools and resources to enhance their productivity.\\
+\\
+In light of the formulation of SDG Goal number two, \textbf{Zero Hunger} by the year 2030\cite{unhunger}, there is a highlighted issue of hunger among humans, especially in developing countries. Therefore, there is a need to find ways to mitigate hunger. This problem arises from multiple dimensions and will thus require a multidimensional approach to solving it. One of the various approaches is through enhanced farming.\\
+\\
+Looking into the 9th goal of the UN SDG goals, \textbf{Industry, Innovation, and Infrastructure}, which seeks to build resilient infrastructure, promote sustainable industrialization, and foster innovation\cite{uninnovation}. We can see that socio-economic development is highly dependent on industry innovation and infrastructure development. In the absence of innovation, society will not be able to take care of itself as the population increases and the demand for resources and services grows.\\
+\\
+Also in the 12th SDG goal, there is a need for responsible consumption of resources. As the SDG goal states, \textbf{Responsible Consumption and Production}. All that this goal is about is ensuring sustainable consumption and production patterns, which are key to sustaining the livelihoods of current and future generations\cite{unresponsible}. There is an imminent need for management and adequate use of resources as the human population increases and the demand for resources grows. As much as production needs to be increased and more needs to be produced, there should be an utmost sense of appropriation and responsible use of resources to avoid wastage.\\
+\\
+Given the information presented above, it becomes evident that addressing the pressing issue of hunger and its far-reaching consequences on humanity is paramount. Furthermore, it underscores the urgent requirement for innovative and robust industrial infrastructure to meet the growing demands of an expanding global population. It is imperative to adopt responsible consumption practices and implement sustainable production methods that can adequately support and nurture mankind for generations to come. In light of these critical imperatives, embarking on a project aimed at providing viable solutions to these pressing needs is not only essential but also urgent and imperative.
+
+\newpage
+\subsection{Problem Statement}
+Agricultural farms are important to humans as they produce the food we eat. The food we eat consists of the yields of the crops that are cultivated.\\ 
+Farmers frequently face challenges in providing the necessary farm essentials to support ideal plant growth, primarily due to inadequate and inaccurate farm condition data. The problem is that farmers have been providing farm essentials to crops based on guesswork. They are not able to accurately determine the needs of the farms.
+\\
+Current farm management practices are often reactive and data-deficient, leading to inefficiencies and unsustainable resource use across various aspects of agricultural production. Farmers struggle to optimize irrigation, fertilization, and pest control due to limited real-time data on soil health, weather conditions, and crop development. This limitation results in potential yield losses, water waste, and environmental damage from excess nutrients.
+\\
+Therefore, there is a critical need for a farm monitoring system that:
+\begin{itemize}
+ \item Provides real-time, comprehensive data on environmental conditions, crop health.
+ \item Offers user-friendly interfaces and actionable insights for informed decision-making.
+ \item Is cost-effective, scalable, and accessible to farmers of all sizes.
+ \item Contributes to sustainable agriculture practices by optimizing resources
+\end{itemize}
+By addressing these challenges, a well-designed system that can monitor vital soil and atmospheric factors affecting farm plant growth can empower farmers to achieve increased productivity and profitability, enhanced decision-making, and long-term sustainability.
+
+
+
+\newpage
+\subsection{Objectives of the Project}
+\subsubsection{General Objectives}
+The project's objective is to develop a streamlined approach for deploying sensors to monitor critical soil and atmospheric conditions essential for plant growth. This involves identifying the optimal quantity, types, and placements of sensors to collect data on variables such as moisture levels, nutrient content, temperature, humidity, and atmospheric gases. Ultimately, the aim is to equip farmers with timely information to refine their farming techniques, resulting in higher crop yields and quality, decreased resource consumption, and reduced environmental impact.
+\subsubsection{Specific Objectives}
+This project aims to achieve several key objectives:\\
+\begin{enumerate}
+\item \textbf{Increased efficiency and productivity:}
+\begin{enumerate}
+ \item Optimize resource use (water, fertilizer, energy) based on real-time data.
+ \item Automate tasks like irrigation and climate control to save time and labor.
+ \item Improve yield and crop quality through early detection of problems.
+\end{enumerate}
+ 
+\item \textbf{Reduced environmental impact:} Minimize water usage and fertilizer runoff through precise application.\\
+\item \textbf{Improved decision-making:} Facilitate informed decision-making for improved farm management and profitability.
+\end{enumerate}
+
+\newpage
+\subsection{Scope of the project}
+The focus of this project is to design a system that can be used to monitor any size of open farms.
+\begin{itemize}
+\item[--] The system will measure specific soil and atmospheric factors. Atmospheric factors include: atmospheric temperature, humidity, and rain/precipitation. Soil factors also include: soil pH, soil moisture, soil temperature and supply of specific nutrients.
+\item[--] The whole system is a Wireless Sensor Network(WSN) based implementation been used to  monitor the farm.
+\item[--] The system will also take the information gathered via the sensors and then sent to a cloud service for processing. Based on the information derived, farmers will be advised on what to do.
+\item[--] The system will have a frontend interface where information derived can be displayed and farmers recieve advise.
+\item[--] The system will also offer sms service where sms can be sent to farm owners of the conditions of their farm. 
+\end{itemize}
+
+\newpage
+\subsection{Significance of Study}
+Allocation of sensors to monitor vital soil and atmospheric factors is very essential. The can help improve on our agricultural prowess and productivity. 
+\\ \\
+\textbf{Optimization of Resources:} The system can help farmers optimize the use of resources such as water, fertilizers, and pesticides, reducing waste and increasing efficiency.
+\\ \\
+\textbf{Early Detection of Issues:} This system can detect issues such as pest infestations, disease outbreaks, or nutrient deficiencies early, allowing farmers to take timely action to mitigate losses.
+\\ \\
+\textbf{Data-Driven Decision Making:} By collecting and analyzing data on crop health, weather patterns, soil moisture, and other factors, farmers can make informed decisions to improve yields and profitability.
+\\ \\
+\textbf{Remote Monitoring:} With this system, farmers can remotely monitor their fields allowing them to keep an eye on their operations even when they are not physically present.
+\\ \\
+\textbf{Environmental Sustainability:} By monitoring factors like soil health and water usage, farmers can adopt more sustainable practices that minimize environmental impact and conserve natural resources.
+\\ \\
+\textbf{Increase in Productivity:} By providing real-time insights into crop conditions, monitoring systems can help farmers increase productivity and ultimately profitability.
+
+
+Overall, farm monitoring systems enable farmers to make more informed decisions, increase efficiency, and ultimately improve the sustainability and profitability of their operations.
+
+\newpage
+\subsection{Organisation of Study}
+\begin{enumerate}
+\item \textbf{Introduction}
+	\begin{itemize}
+	\item[--] Aim and objectives of the project.
+	\item[--] Background information on how certain soil and atmospheric factors affect plant    growth.
+	\end{itemize}
+\item \textbf{Farm monitoring systems}
+\begin{itemize}
+    \item[--] Types of farm monitoring systems implemented.
+	\item[--] Benefits and limitations of existing technology.
+\end{itemize}
+\item \textbf{Design of System}
+\begin{itemize}
+	\item[--] Design of system architecture.
+    \item[--] Physical design consideration for the system.
+    \item[--] Components of the smart monitoring system.
+\end{itemize}
+\item \textbf{Programming of the System}
+\begin{itemize}
+	\item[--] Appropriate programming laguages that can be used for programming the system and controling the various components.
+	\item[--] Algorithims that would be used to gather and analyze information.
+\end{itemize}
+\item \textbf{Prototype development}
+\begin{itemize}
+\item[--] Building a prototype of the monitoring system
+\item[--] Testing the prototype for efficiency and functionality
+\item[--] Iterative improvement of the prototype system
+\end{itemize}
+\item \textbf{Conclusion}
+\begin{itemize}
+\item[--] Summary of the study.
+\item[--] Future scope of the project.
+\end{itemize}
+\end{enumerate}
+\newpage
+
+\section{Literature Review}
+\subsection{Introduction}
+Over the past few years, the demand for precision and accurate agriculture has significantly increased. It has become evident that resources are often wasted or inadequately utilized during farming practices. For example, water usage can vary from under-irrigation to over-irrigation without detection, and fertilizers may be applied excessively or insufficiently. These discrepancies arise due to the inability to accurately assess the soil condition and environmental factors affecting plant growth. Precision agriculture eliminates guesswork, promotes data-driven decision-making, and mitigates resource wastage. Consequently, there has been a proliferation of various technologies aimed at efficiently addressing these challenges. In this section of the report, articles discussing studies and implementations of such technologies are presented.
+
+\subsection{Related Works}
+\subsubsection{Design and Deploy a Wireless Sensor Network for Precision Agriculture}
+In an article by Tuan Din Le and Dat Ho Tan \cite{7302210} from the Department of Computer Science, Long An University of Economics and Industry, presented at the 2015 Second National Foundation for Science and Technology Development Conference on Information and Computer Science, a similar project was discussed. Their approach involved the use of a Wireless Sensor Network (WSN).\\
+In their system, sensor nodes are deployed in each cultivation area to monitor environmental and agricultural parameters. These sensor nodes collect, store, and periodically transmit data to a management node, which then sends the data to a control center and finally to a server via the internet. The hardware components involved include sensor nodes, management sensor nodes, and a server.\\
+The data obtained from this system allows farmers to observe and make informed decisions to control the health of their farms, ensuring production quality assurance. The system proposed by the paper is extensible, improving precision agriculture and providing real-time field information.
+
+\subsubsection{Design and Development of Precision Agriculture System Using Wireless Sensor Netwoork}
+S. R. Nandurkar and V. R. Thool \cite{6808017}, affiliated with the Department of Information Technology Engineering, SGGIE \& T, Nanded, Maharashtra, India, conducted a similar project. In their approach, they utilized a Wireless Sensor Network (WSN).\\
+Their work focused on developing a Wireless Sensor Network-based low-cost soil temperature and moisture monitoring system. This system tracks the soil temperature and moisture of a field in real-time, enabling water to be dripped onto the field if the temperature exceeds a certain threshold or if the soil moisture falls below a prescribed limit, based on the requirements of the crop being cultivated.\\
+The sensors measure parameters such as moisture and temperature, which are then relayed to a microcontroller. The microcontroller processes these inputs and regulates water flow accordingly, based on the programmed logic. The entire system is implemented for 'Smart Irrigation Application' using RF 433MHz modules and is designed with a microcontroller and RF 433MHz module.\\
+This system offers multiple control options for users. The collected data can be directed towards an automated irrigation system to trigger irrigation automatically, or farmers can use the data to manually irrigate the farm or field.
+
+\subsubsection{Design and Implementation of a connected Farm for Smart Farming System}
+In a paper authored by Minwoo Ryu, Taeseok Yun, Ting Miu, $\Pi$-Yeup Ahn, Sung-Chan Choi, and Jaeho Kim \cite{7370624} from the Embedded Software Convergence Research Center, Korean Electronics Technology Institute, Seognam, South Korea, a connected farm monitoring system was discussed.\\
+The research aimed to provide a suitable environment for growing crops. In this implementation, all sensors and actuators for monitoring and growing crops are connected to a gateway, which is installed with a device software platform for IoT systems called \emph{Cube}. The gateway communicates with an IoT service server named \emph{Mobius}. Mobius not only monitors the environmental conditions of the connected farm but also interacts with expert farming knowledge systems and controls actuators to optimize the farm for crop growth.\\
+The system is designed to be extendable, allowing for easy integration with new devices and facilitating the creation of horizontal smart farm platforms. This enables all smart farms to be connected and benefit from expert farming knowledge systems.    
+  
+\subsubsection{Design and Implementation of an Agricultural Monitoring System for Smart Farming}
+In an article by Jan Bauer and Nils Aschenbruck \cite{8373022} from the University of Osnabruck's Institute of Computer Science, presented at the 2018 IoT Vertical and Topic Summit on Agriculture, an agricultural monitoring system for smart farming based on Wireless Sensor Network (WSN) was discussed.\\
+This paper builds upon a previous work by the same group, where a Photosynthetically Active Radiation (PAR) Sensor was utilized. The focus of their research is on a specific crop parameter, namely the Leaf Area Index (LAI). LAI is a widely used key parameter that provides insights into the photosynthetic performance and vital conditions of plants. It is related to vegetative biomass and is defined as the dimensionless quantity of leaf area per ground surface area. LAI also serves as an indicator for yield modeling. The overarching goal of their system is long-term continuous crop monitoring, enabling LAI profiles with fine-grained spatio-temporal resolution.\\
+The previous sensor used by the group senses ambient light in the Photosynthetically Active Radiation (PAR) range. By conducting two simultaneous PAR measurements, one from below and the other from above the canopy, the transmittance of irradiation through the canopy can be derived, allowing for the estimation of LAI. The key approaches in their methodology include hardware redundancy, software simplicity, and remote control of the entire system.\\
+The architecture primarily comprises a WSN-based monitoring system tailored for in-situ LAI assessment. The system is fault-tolerant due to its hardware redundancy, and it is easy to manage as it is remotely controlled.
+
+\subsubsection{Desgn and Implentation of Smart Farm Data Logging and Monitoring System}
+In an article authored by Jaina Nica C. Bonquito, Aira Ynnah Luzzyne O. Cabato, and Rionel Belen Caldo \cite{bongulto2016design} from the Computer Engineering Department at Lyceum of the Philippines University - Laguna, a farm monitoring system for data logging was discussed.\\
+Their study involved designing and implementing a system that logs data parameters monitored by different sensors, including atmospheric temperature, humidity, soil moisture, and soil pH. The sensors used in the study were the DHT11 for humidity and temperature, a soil moisture sensor, and a soil pH sensor. The logged data is integrated into a single system, facilitating effective monitoring of plant growth. The sensed data is transmitted to the main computer, which includes VB.Net as the programming language for monitoring and logging temperature, humidity, soil moisture, and soil acidity values. Microsoft Excel software serves as the database for logging the data and creating graphical representations.\\
+The implemented system uses distributed but connected sensors to cover the farmlands. This setup is particularly suitable for farms with various types of crops grouped in specific areas. Different sensors are located at different positions to gather data. The DHT11 sensors are positioned at the edges of the farm to monitor temperature and humidity, while each crop group has its own soil moisture and soil pH sensor placed diagonally across the farm to detect water levels and soil acidity.\\
+This system allows for flexibility by enabling experimentation with strategic sensor placements. This is achieved through continuous monitoring and analysis of sensor placements.
+  
+\subsubsection{Design of GreenHouse Environment Monitoring System based on Wireless Sensor Networks}
+In an article by Lijun Liu and Yang Zhang \cite{liu2017design} from the College of Information Science and Engineering, Shenyang University of Technology, Shenyang, China, a farm monitoring system tailored for greenhouse environments was discussed.\\
+Their system is based on Wireless Sensor Network (WSN) technology and is designed specifically for greenhouse farming. The system integrates detection, wireless communication, alarm, display, and control functions into one cohesive unit. It utilizes temperature and humidity sensors (SHT11) along with light intensity sensors (BH1750) for data monitoring. The CC2530 microprocessor is employed for processing, while the man-machine interface is realized using LabView software.\\
+The greenhouse environment is primarily composed of the monitoring center, the coordinator, the control execution structure, and the terminal nodes. Each functional terminal node transmits environmental information via Zigbee wireless transmission technology to the coordinator, which then relays the data to the monitoring center through cable transmission. LabView software is utilized to create a user-friendly interface on the host computer for displaying the environmental information of the greenhouse.\\
+The system is characterized by its mobility, flexibility, scalability, low cost, low power consumption, and ease of operation.
+
+\subsubsection{Wireless Sensor Network for GreenHouse}
+An article by S.U. Zagade and R.S. Kawitkar  \cite{zagade2012wireless} from the Department of Electronics and Telecommunication Engineering, Sinhgad College of Engineering, Pune, India, describes the utilization of a Wireless Sensor Network (WSN) for monitoring a greenhouse farm.\\
+In their approach, all monitored parameters are transmitted wirelessly to a cellular device for analysis. They opt for cell phones instead of computer terminals, considering that farmers are the end-users and for power management reasons. The system consists of three sensor nodes, each equipped to monitor temperature, humidity, and light intensity, along with general-purpose computing and networking devices.\\
+The computation module on each sensor node is programmable, performing computations and facilitating bi-directional communication with other sensor nodes. These nodes interface with digital sensors and transmit data as per application requirements. With a wireless communication range of over 1km, sensor nodes can be widely separated. Sensor nodes 1 and 2 transmit their data to sensor node 3, acting as a coordinator node that aggregates the data in a time-multiplexed manner, thus avoiding data transmission collisions. The coordinator node also serves as a gateway between different wireless technologies, transmitting collected data, along with its own, to the cell phone via Short Message Services (SMS). This choice of using cell phones aims to simplify the network, extend coverage distance, and minimize power consumption. The network formed by nodes 1 and 2 is termed the patch network.\\
+While making node 3 both coordinator and gateway node extends the system's coverage area, it introduces a potential single point of failure. If the coordinator node malfunctions, the entire system becomes ineffective.
+
+\subsubsection{GreenHouse Monitoring and Control System based on Wireless Sensor Network}
+In an article authored by Marwa Mekki, Osman Abdallah, Magdi B. M. Amin, Moez Eltayeb, Tafaoul Abdalfatah, and Amin Babiker \cite{7381396} from the Sudan Atomic Energy Commission, Faculty of Engineering and Technology, University of Gezira, Wad Medani, Sudan, and the Faculty of Engineering, Alneelain University, Khartoum, Sudan, presented during the International Conference on Computing, Control, Networking, Electronics, and Embedded Systems, a similar project was discussed.\\
+The system comprises a variety of sensors including temperature, humidity, moisture, light control, and CO2 sensors. These sensors monitor different parameters, and when they exceed predefined thresholds, they trigger actuators to mitigate the situation. The parameters are customizable based on user-defined plans and climate requirements.\\
+Sensor values are transmitted to a gateway, where the node checks for new SMS arrivals containing global data requirements. Upon receiving an SMS, the node sends a data frame to a master mobile phone, containing sensor abbreviations and their corresponding values. Additionally, the system checks for control SMS messages. In response, it decodes the SMS contents and toggles device states accordingly, either turning them on or off. Control data frames include device abbreviations and the desired status. These data frames can be sent from the master mobile phone or from the graphical user interface (GUI) on demand. If sensor values exceed predefined limits, a cautionary SMS is sent to the master mobile phone for decision-making. If no response is received, the system automatically triggers the appropriate device.\\
+On the gateway side, the system receives sensor data and transmits it to LabVIEW software. This software displays sensor values and provides control switches for different devices. Control data frames can also be sent to the sensor node using Devices Control Switch (DCS).
+ 
+\subsubsection{Greenhouse Monitoring with Wireless Sensor Network}
+A team of three individuals from the University of Vaasa, Teemu Ahonen, Reino Virranskoski, and Mohammed Elmusrati \cite{torabi2023greenhouse}, developed a greenhouse farm monitoring system. Their work involved integrating three commercial sensors into the Sensinode's sensor platform. With these sensors, they were able to measure four crucial parameters for greenhouse climate adjustment: temperature, relative humidity, light irradiance, and air carbon dioxide content.\\
+The platform utilized the 6LoWPAN protocol, enabling the transmission of compressed IPV6 packets over IEEE 802.15.4 networks. Sensor nodes communicate directly with the gateway, which functions as a coordinator and receives the measured data. A computer is then connected to the coordinator via a USB cable for further processing and analysis.
+
+\subsubsection{A long-term field monitoring system with field sservers at a Grape farm}
+In an article by Tokihiro Fukatsu, Yasunori Sairo, Takanobu Suzuki, Kin-chi Kobayashi, and Masayuki Hirufuji \cite{saito2008long}, an implementation and experiment were discussed.\\
+The proposed system is constructed using Web-based sensor nodes, an agent program, and Web analysis applications, all interconnected via the Internet.\\
+The Web-based sensor nodes, one of which was previously developed as a Field Server, are equipped with wireless LAN, an Internet camera, and a monitoring unit with a built-in Web server. The wireless LAN facilitates high-speed transmission and long-distance communication at low cost, making it effective for monitoring image data.\\
+Controlled remotely by the agent program, the sensor nodes collect data, which is then displayed on a Web-based database. The database's storage capacity is easily extendable, and it is accessible to users via the Internet.\\
+The agent program operates autonomously based on parameter files (Profiles) in XML format, performing complex operations on the sensor nodes using production rules.\\
+The system can analyze monitoring data using Web applications, which execute their processes autonomously with input data. By incorporating useful Web applications such as image analysis and signal processing, this system offers versatile and easily expandable functions without requiring changes or reboots to the agent program, thus enabling distributed calculation tasks.
+
+\subsubsection{An Efficient Wireless Sensor Network for Precision Agriculture}
+In an article by Manijeh Keshtgary and Amene Deljoo \cite{keshtgary2012efficient}, a farm monitoring and control system based on Wireless Sensor Network (WSN) was discussed.\\
+Their approach involves the deployment of devices, such as sensors, across an environment to monitor and manage it based on specific physical phenomena. Through the utilization of computer resources and appropriate technology, these activities are automated. The system is designed to enable informed decision-making for each zone within the farm. Unlike traditional networks, which typically assume the user to be a human agent, WSNs are centered on the physical environment, particularly the data themselves. Sensor nodes interact directly with the environment in which they are placed, gathering information based on relevant physical phenomena and collaborating with each other to accomplish tasks efficiently.\\
+To achieve these objectives, specific algorithms and communication protocols are essential. As the nodes are distributed throughout the environment, they must self-configure the network and adapt to it accordingly. These sensors can be programmed to record various parameters such as temperature and humidity. The data collected from the sensors, using wireless multi-hop routing technology, are transmitted to a sink node. From there, the data can be transferred to end-users through wireless networks, the internet, or local area networks (LANs).\\
+The system serves several roles, including sensing agricultural parameters, identifying sensing locations and gathering data, transferring data from the crop field to the control station for decision-making, and implementing actuation and control decisions based on the sensed data.
+
+\subsubsection{PRELIMINARY DESIGN FOR CROP MONITORING INVOLVING WATER AND FERTILIZER CONSERVATION USING WIRELESS SENSOR NETWORKS}
+In a research paper by S. Vijayakumar and J. Nelson Rosario \cite{vijayakumar2011preliminary} from TIF AC-CORE in Pervasive Computing Technologies at Velammal Engineering College, Chennai, India, the aim was to develop a system to reduce water and fertilizer wastage.\\
+Their proposed solution involves a wireless sensor system designed to communicate with each other while consuming low power, utilizing Micaz motes. The architecture to be implemented in the sensor nodes aims to establish wireless networking data collection in crop fields, potentially replacing conventional manual data collection systems.\\
+Each sensor node consists of a general Micaz mote with an MDA300 data acquisition board, equipped with standard measurement parameter sensors such as ambient air temperature and humidity. Additionally, the nodes include external terminals for soil pH, soil moisture, leaf wetness, and atmospheric pressure sensors, all integrated into each node.\\
+Deployed nodes collect these parameters and report them to a central coordinator or sink. The coordinator oversees data collection activities. Individual nodes, based on soil moisture sensor readings, activate water sprinklers in the corresponding region. Simultaneously, soil pH sensor values are reported to the central coordinator, which then alerts the farmer via SMS using an OSM modem, indicating the need to fertilize the specific region.\\
+This proposal aims to conserve water and fertilizer by providing timely and targeted irrigation and fertilization based on real-time sensor data.
+
+\subsubsection{A Strategic Agricultural Field Monitoring using Internet of Things enabled Wireless Sensor Network}
+The paper by Timothy Dhayakar Paul from the Department of ECE at Kumaraguru College of Technology, Coimbatore, India, and Dr. Vimalathithan Rathinasabapathy from the Department of ECE at Karpagam College of Engineering, Coimbatore, India \cite{paul2021strategic} discusses the implementation of a novel Wireless Sensor Network (WSN) based Agricultural Management System integrated with Internet of Things (IoT) technology.\\
+Referred to as the Intellectual Agri-Data Processing Scheme (IADPS), this approach aims to provide real-time monitoring and management of agricultural fields. The system collects data such as temperature, humidity, soil moisture, and motor pump condition using sensors placed in the agricultural field. This data is then transmitted to a server for processing and storage. Alerts are generated for farmers when the data exceeds predefined threshold levels, facilitating timely interventions to ensure crop health and productivity.\\
+The process involves the deployment of IoT-assisted WSN using a Smart Device equipped with sensors for data collection. The data is transmitted to a server via the WSN base station for processing. The system employs algorithms to analyze the data and trigger alerts based on predefined thresholds. The proposed approach aims to enhance agricultural field monitoring and management by leveraging IoT and WSN technologies.\\
+The integration of IoT and WSN technologies provides a comprehensive solution for real-time agricultural field monitoring. The use of sensors enables accurate data collection, allowing for timely interventions to optimize crop health and productivity. The system's ability to send alerts to farmers promptly helps in preventing potential crop damage or losses. The paper provides a detailed explanation of the proposed methodology, including algorithms and system architecture.\\
+However, despite these benefits, the paper lacks empirical data or case studies to demonstrate the effectiveness of the proposed system in real-world agricultural settings. There is limited discussion on potential challenges or limitations of implementing the proposed approach. Additionally, the scalability and cost-effectiveness of deploying the system on a large scale are not addressed. These aspects could be further explored to provide a more comprehensive evaluation of the proposed system. 
+
+\subsubsection{Smart farm and monitoring system for measuring the Environmental condition using wireless sensor network-IOT Technology in farming}
+In a paper published in the 2020 5th International Conference on Innovative Technologies in Intelligent Systems and Industrial Applications by Tharindu Madushan Bandara and Mansoor RAZA \cite{bandara2020smart}, a solution was proposed.\\
+In their approach, they utilized IoT sensors, including soil moisture sensors, temperature sensors, and water volume sensors, to collect data from the farming environment. Wireless sensor networks (WSNs) were employed to transmit data from sensor nodes to the central server. Analysis of the collected data was performed on the central server to monitor and control environmental conditions in real-time.\\
+The advantages of the system lie in its utilization of modern IoT technology to improve farming efficiency and resource management. The use of Wireless sensor networks enables real-time data collection from sensor nodes placed in the farming environment. The system also provides a reliable and flexible solution for farmers with a simple architecture, incorporating a real-time monitoring system for better control of environmental conditions.\\
+However, the paper lacks detailed information on the specific implementation and deployment of the proposed system. It also has limited discussion on potential challenges and limitations of the system. Furthermore, it may require further validation and testing in real-world farming scenarios to assess its effectiveness fully. Additional information on these aspects would contribute to a more comprehensive understanding and evaluation of the proposed solution.\\
+
+\subsubsection{Light Control Smart Farm Monitoring System with Reflector Control}
+In a research conducted by Jaekuk Choi, Dongsun Lim, Sangwon Choi, Jeonghyeon Kim, and Jonghoek Kim \cite{choi2020light} from the Department of Electrical Engineering at Hongik University, Sejong, Korea, a farming monitoring system with reflector control was discussed.\\
+In their approach, they implemented a smart farm monitoring and control system using Arduino and DC motors. They regulated the amount of light inflow by adjusting the angle of a reflector. Environmental factors such as temperature, humidity, carbon dioxide (CO2), and light were monitored for optimal farm conditions. The system included a server and mobile application for real-time data upload and monitoring.\\
+The implementation has several notable advantages. The use of reflector control instead of artificial light for cost-effective and efficient light management in smart farms is innovative. Additionally, the system comprehensively monitors various environmental factors crucial for plant growth. The ability to remotely modify temperature and humidity reference values via a mobile application enhances control flexibility. Furthermore, accumulated data on the server enables analysis for maintaining optimal farm conditions.\\
+However, there are some limitations to consider. The paper lacks detailed experimental results, including extensive data analysis or statistical validation of the system's performance. Additionally, the scalability of the system to larger farms or different environments is not discussed. Addressing these caveats would provide a more comprehensive understanding of the system's effectiveness and applicability in real-world farming scenarios.
+
+\subsubsection{IoT Enabled Plant Soil Moisture Monitoring Using Wireless Sensor Networks}
+In their research, A.M. Ezhilazhahi and P.T.V. Bhuvaneswari \cite{ezhilazhahi2017iot} from the Department of Electronics Engineering, Madras Institute of Technology, developed a remote monitoring system for soil moisture in plants using Wireless Sensor Networks (WSN) integrated with Internet of Things (IoT) technology.\\
+Their system consisted of sensing and transmitter modules, a receiver module, IoT enablement using Dropbox cloud storage, and an event detection algorithm based on Exponential Weighted Moving Average (EWMA). The sensing module included a soil moisture detection probe and sensor board connected to a PIC microcontroller and Zigbee transceiver, while the receiver module utilized a Raspberry Pi and Zigbee receiver.\\
+The research addresses the increasing demand for continuous monitoring of plant health, particularly soil moisture, in organic farming. The integration of WSN and IoT technologies offers remote monitoring capabilities, and the use of Zigbee technology ensures efficient wireless communication. The adoption of the EWMA event detection algorithm enhances the network lifetime by activating nodes only when threshold conditions are met, conserving energy.\\
+However, there are some limitations to consider. The research primarily focuses on monitoring soil moisture in an open environment rather than controlled environments like greenhouses, potentially limiting its applicability in certain agricultural contexts. While the system's components are described, specific technical details such as sensor accuracy, power consumption, and data transmission protocols are not extensively discussed. Additionally, there is limited discussion on scalability or robustness of the proposed system beyond single-sensor deployments. Addressing these limitations would enhance the understanding and applicability of the proposed system in real-world agricultural settings.
+
+\subsubsection{Design of Novel Wireless Sensor Network Enabled IoT based Smart Health Monitoring System for Thicket of Trees}
+This work was conducted by B. Sridhar, S. Sridhar, and V. Nanchariah \cite{sridhar2020design} from the Department of Electronics and Communication Engineering at LIET, Vizianagaram, India, focuses on the design and implementation of a novel wireless sensor network-enabled IoT-based smart health monitoring system specifically tailored for monitoring coconut trees.\\
+The system aims to address issues such as natural calamities, diseases like red spot disease, and the lack of proper monitoring systems, which have contributed to a decline in coconut farming in countries like India.\\
+Utilizing a combination of wireless sensor networks (WSN) and IoT technologies, the proposed system enables remote monitoring and control of coconut tree health. It integrates cloud-based servers and mobile devices for real-time monitoring and control, with a particular focus on soil moisture monitoring using WSN.\\
+Positively, the system offers remote monitoring and control of tree health, providing convenience to farmers. It utilizes IoT and WSN technologies known for their efficiency in data collection and monitoring. Additionally, the integration of cloud-based servers ensures accessibility and scalability of the system, while low power consumption and solar power compatibility make it suitable for remote and rural areas.\\
+However, the literature lacks detailed information on the specific sensor types and their accuracy. It also does not provide empirical data or results from field trials to validate the effectiveness of the proposed system. While technical challenges are discussed, solutions or mitigation strategies for these challenges are not deeply explored. Furthermore, the scalability and robustness of the system in large-scale deployment scenarios are not thoroughly addressed. Addressing these limitations would strengthen the understanding and applicability of the proposed system in real-world agricultural settings.
+
+\subsubsection{Greenhouse Monitoring with Biocompatible Humidity Sensor for Smart Farming}
+This study was conducted by Moritz Schlagmann, Joseph Stoenner, Franz Selbmann, Stefan Hess, and Thomas Otto \cite{schlagmann2023greenhouse} focuses on greenhouse monitoring using biocompatible humidity sensors for smart farming.\\
+The research addresses the need for precise environmental monitoring in greenhouse horticulture to optimize crop growth and mitigate pest-related risks.\\
+The study utilizes a miniaturized leaf wetness sensor integrated with an application-specific integrated circuit (ASIC) based on CMOS technology. The sensor employs interdigitated electrodes covered with biocompatible Parylene C, allowing direct attachment to plant leaves. Calibration of the sensor is conducted to ensure accurate humidity measurements.\\
+Additionally, the study involves the development of an algorithm to determine leaf wetness duration based on dew point depression (DPD) calculated from sensor data. Different DPD thresholds are evaluated to optimize wetness detection accuracy.\\
+This approach represents a significant advancement in greenhouse monitoring technology, offering precise and biocompatible sensors that can directly assess environmental conditions crucial for crop health and productivity.
+ 
+ \subsubsection{Design of a smart system for monitoring and management of pastures and meadows: The Relational Database Approach}
+This was a study conducted by Tsvetelina Mladenova, Irena Valova, and Nikolay Valo \cite{mladenova2022design} from the University of Ruse, Bulgaria, proposes a system comprising both hardware and software components for monitoring and managing smart farms.\\
+In terms of pros, the study addresses the growing interest and importance of ICT in agriculture, specifically in the context of smart farming solutions. The proposed system integrates hardware and software components for comprehensive farm monitoring and management. Utilization of a relational database approach ensures efficient data storage, processing, and analysis. Detailed descriptions of hardware components and software functionalities provide clarity on system implementation.\\
+However, there are also some caveats. The study primarily focuses on the technical aspects of the proposed system, with limited discussion on potential socio-economic impacts or scalability issues. While the software functionalities are described in detail, practical implementation challenges and potential barriers to adoption are not extensively discussed. Further empirical validation or field testing of the proposed system's performance and scalability could enhance the study's credibility.
+
+\subsubsection{Cloud-based Low-Power Long Range IoT Network for Soil Moisture Monitoring in Agriculture}
+%The study conducted by Subhra Shankha Bhattacherjee et al\cite{bhattacherjee2020cloud} from the Indian Institute of Technology, Hyderabad, and Jana Kholova from ICRISAT focuses on soil moisture monitoring in agriculture using an IoT network with LoRa communication technology. The researchers designed soil moisture sensors and LoRa nodes in-house, which measure various field parameters including ambient temperature, humidity, soil moisture, and soil temperature. These nodes are powered by rechargeable Li-Ion batteries and solar panels to enhance their longevity. The network architecture includes a Raspberry Pi as a gateway device, connecting to servers hosted by OVH, a cloud computing company.\\
+%The paper addresses the critical need for efficient soil moisture monitoring in agriculture, highlighting the benefits of IoT technology in addressing this need. The use of LoRa technology enables long-range communication, making it suitable for large agricultural fields. The in-house design of sensor nodes and LoRa communication devices demonstrates technical expertise and customization according to specific requirements. The deployment of the network at ICRISAT’s LeasyScan platform validates its practical applicability in real-world agricultural settings.\\
+%However, there are some limitations in the study. While the focus is on soil moisture monitoring, the paper does not extensively discuss other relevant field parameters such as nutrient content, which could also impact crop yield. Additionally, there is a lack of detailed discussion on the data analysis techniques employed, such as statistical analysis to address outliers in the collected data. Furthermore, limited information is provided regarding the scalability of the proposed network and its compatibility with diverse agricultural landscapes. These aspects could be further explored to enhance the comprehensiveness and applicability of the study's findings.%
+
+Subhra Shankha Bhattacherjee, Shreeshan S., Gattu Priyanka, Akshay Ramesh Jadhav, P. Rajalakshmi (Indian Institute of Technology, Hyderabad, India), Jana Kholova (Crop Physiology, ICRISAT, Hyderabad, India)\cite{bhattacherjee2020cloud} conducted a study soil moisture monitoring in agricultural.
+In their study, the proposed IoT network utilizes LoRa (Long Range) communication technology operating
+at 868 MHz ISM band for transmitting data. The authors have designed soil moisture sensors and LoRa nodes in-house. These sensors measure various field parameters including ambient temperature, humidity, soil moisture, and soil temperature. The nodes are powered by rechargeable Li-Ion batteries and solar panels, enhancing their longevity. The network architecture incorporates Raspberry Pi as a gateway device, connecting to servers hosted by OVH, a cloud computing company.\\
+The paper addresses the critical need for efficient soil moisture monitoring in agriculture,
+emphasizing the benefits of IoT technology in addressing this need. The use of LoRa technology enables long-range communication, making it suitable for large agricultural fields. The in-house design of sensor nodes and LoRa communication devices demonstrates technical expertise and customization according to specific requirements. The deployment of the network at ICRISAT's LeasyScan platform validates its practical applicability in real-world agricultural settings.\\
+While the study focuses on soil moisture monitoring, it does not extensively discuss other relevant field parameters such as nutrient content, which could also impact crop yield. The paper lacks detailed discussion on the data analysis techniques employed, such as statistical analysis to address outliers in the collected data. Limited information is provided regarding the scalability of the proposed network and its compatibility with diverse agricultural landscapes.
+
+\subsubsection{Connectivity of Agricultural Soil Fertility Online Monitoring Devicess with Smartphones}
+This research was conducted collaboratively by Denis Eka Cahyani, Langlang Gumilar, Arif Nur Afandi, Ahmad Asri Bin Abd Samat, Achmad Safi'i, and M. Wahyu Prasetyo \cite{cahyani2023connectivity} from the Departments of Mathematics and Electrical Engineering at Universitas Negeri Malang, Indonesia, and Universiti Teknologi Mara, Malaysia, presents the development of an online monitoring system for agricultural soil fertility using Internet of Things (IoT) technology.\\
+The system integrates sensors for soil pH, temperature, and moisture connected to a microcontroller, which transmits data to smartphones for real-time monitoring. Specifically, the study employs sensors including DS18B20 for temperature, YL69 for moisture, and pH sensors, integrated with a NodeMCU ESP32 microcontroller. The microcontroller processes data and sends it to smartphones via the Internet, enabling real-time monitoring. The study also describes the operational principles and testing procedures for each sensor.\\
+Positively, the integration of IoT technology allows for real-time monitoring of soil fertility, aiding farmers in timely decision-making. The study provides detailed descriptions of sensor functionalities, testing methods, and system architecture, ensuring reproducibility. Additionally, the system utilizes widely accessible components, such as smartphones, making it potentially scalable and adaptable in various agricultural settings.\\
+However, there are some caveats. The study primarily focuses on sensor accuracy testing, with limited discussion on the system's scalability, robustness, or potential limitations in practical implementation. While the system's connectivity with smartphones is demonstrated, further discussion on the user interface, data visualization, and usability aspects could enhance its applicability for farmers. Additionally, the research lacks empirical validation in diverse agricultural environments, which could affect the generalizability of the findings.
+
+\subsubsection{IoT Based Greenhouse Environment Monitoring and Smart Irrigation System for Precision Farming Technology}
+This is a paper by Arindom Chakraborty et al\cite{chakraborty2022iot} presents an IoT-based precision farming system for monitoring greenhouse environments. Divided into three subsystems - local monitoring, IoT monitoring, and smart irrigation - the system utilizes sensors, microcontrollers, and the BLYNK IoT platform.\\
+Implemented in a small-scale greenhouse model, sensors measure temperature, humidity, light intensity, and soil moisture. The system's performance, including smart irrigation functionality, was tested and validated, demonstrating effective real-time monitoring and control of environmental parameters. The smart irrigation system maintained soil moisture levels, enhancing resource efficiency and crop growth.\\
+The study features a comprehensive literature review, detailing the evolution of precision farming and IoT applications. It provides a clear description of the proposed system and its implementation, with a focus on affordability and user-friendliness. However, it lacks in-depth discussion on scalability and long-term sustainability, as well as comparative analysis with existing solutions in terms of cost-effectiveness and performance. Future directions for the system could be further elaborated to provide a more comprehensive roadmap.
+
+\subsubsection{Study on Precision Agriculture Monitoring Framework Based on WSN}
+This study by Xuemei Li, Yuyan Deng, and Lixing Ding\cite{li2008study} focuses on implementing a Wireless Sensor Network (WSN) based greenhouse management system for modern precision agriculture. The system aims to monitor greenhouse environments, control equipment, and provide services to consumers, with an emphasis on cost-effectiveness and environmental friendliness.\\
+Key aspects of the study's implementation include the deployment of WSN in greenhouse environments, utilizing sensor technology, micro-electromechanical systems (MEMS), wireless communication, embedded computing, and distributed information management technologies. The system architecture consists of sensor nodes, actuator nodes, sink nodes, gateways, and a management sub-system.\\
+The integration of these various technologies enables the development of a comprehensive greenhouse management system. By implementing the system in real greenhouse environments, the study demonstrates its practical applicability. Additionally, the study highlights the advantages of using WSN for greenhouse management, emphasizing its cost-effectiveness and environmental benefits.
+
+\subsubsection{Web-Based Smart Farm Data Monitoring System:Prototype}
+This study conducted by Onine M. Mico, Paul Bryan M. Santos, and Rionel B. Caldo \cite{mico2016web} from the Computer Engineering Department of Lyceum of the Philippines University - Laguna introduces a prototype for a web-based smart farming system. The system, built using Hypertext Preprocessor (PHP) as the primary programming language, aims to monitor environmental parameters like temperature, humidity, and soil moisture in real-time, providing farmers with valuable insights into their crop conditions.\\
+Key components of the system include PHP for web development, temperature, humidity, and soil moisture sensors for data collection, and an Arduino microcontroller for interfacing sensors with the web application. Data collected from sensors is stored in a database and presented to users through a user-friendly graphical user interface (GUI), with control charts generated using Crystal Report.\\
+The system enables farmers to monitor environmental parameters in real-time, allowing them to promptly respond to changes in crop conditions. The user-friendly GUI enhances ease of use for farmers, featuring categorized menus and monitoring buttons for each parameter. Data stored in the database is presented to users in the form of control charts, offering visual insights into crop conditions.\\
+One limitation of the system is its reliance on internet connectivity for remote monitoring, which may pose challenges in areas with poor connectivity. Additionally, implementing the system requires various hardware components like sensors and microcontrollers, potentially increasing complexity and maintenance requirements.
+
+\subsubsection{Design and Implementation of an IoT-Based System for Monitoring Nutrients and Irrigation in Agricultural Soil}
+This study conducted by Gomathi S, Raj Kumar V, and Vishnu Aakash R\cite{gomathi2022design}  from the Department of Information Technology at Sri Sairam Engineering College in Chennai, Tamil Nadu, India, focuses on designing and implementing an IoT-based system for monitoring soil nutrients and irrigation in agricultural soil.\\
+Key aspects of the study include the development of hardware using Arduino and ESP8266 modules, along with various sensors such as soil moisture sensor, temperature sensor, and NPK sensor. The system aims to gather real-time data on crucial parameters including soil moisture, temperature, nitrogen, phosphorus, and potassium levels. Additionally, a smart irrigation system is presented to optimize water usage based on sensor data.\\
+The system provides real-time monitoring of crucial soil parameters, enabling farmers to make informed decisions regarding irrigation and nutrient management. The utilization of IoT technology allows for wireless monitoring and data collection, enhancing accessibility and convenience for farmers. The integration of a smart irrigation system helps optimize water usage, leading to improved crop yield and resource efficiency.\\
+However, the study lacks detailed information on the accuracy and reliability of the sensor measurements, which is crucial for ensuring the effectiveness of the system. Additionally, the scalability and interoperability of the system with existing agricultural infrastructure are not extensively discussed, limiting its potential applicability in diverse agricultural settings. Furthermore, there is limited discussion on potential challenges and limitations of implementing the IoT-based system, which could impact its practical deployment and adoption.
+
+\subsubsection{Design and Development of Internet of Things Based Smart Sensors for Monitoring Agricultural lands}
+This study was conducted by Dhiya Sabu, Paramasivam Alagumariappan, Vijayalakshmi Sankaran, and Pavan Sai Kiran Reddy Pittu  \cite{sabu2023design} from the Department of Electronics and Communication Engineering at Vel Tech Rangarajan Dr. Sagunthala R & D Institute of Science and Technology, Chennai, India, presents the design and implementation of a standalone device for monitoring soil pH and moisture in agricultural land.\\
+The device is structured in a three-stack arrangement, with the solar cell placed at the top stack, the battery, microcontroller unit, DC-to-DC converter, and battery charger unit in the middle stack, and the pH and soil moisture sensors arranged on the bottom stack. Foam floats are attached to the bottom stack to enable the device to float in water-filled land.\\
+The solar cell generates electrical energy, which is regulated by a DC-to-DC converter to provide a consistent 5-volt supply to all device components. A lithium polymer (LiPo) battery is used to store excess energy and ensure continuous operation, with charging facilitated by a LiPo battery charger circuit.\\
+The pH sensor measures soil acidity and basicity within a voltage range of 3.3 to 5.5 volts, also capable of measuring soil temperature. The soil moisture sensor operates between 3.3 to 5 volts and utilizes a pair of electrodes and a comparator board to measure moisture levels.\\
+An ESP8266 microcontroller unit (Node MCU) collects sensor data and interfaces with the IoT cloud via WiFi. To accommodate multiple sensors, an external analog-to-digital converter (ADS1115) is connected to the Node MCU, enabling data conversion and transmission via the I2C protocol.\\
+Two IoT cloud platforms, ThingSpeak and a custom-designed platform, are utilized to log agricultural parameters such as soil wetness, temperature, and pH over time.\\
+Overall, the study demonstrates the development of a comprehensive soil monitoring system leveraging IoT technology, enabling remote monitoring and management of agricultural land parameters for improved crop cultivation.
+
+\subsubsection{Design A Monitoring System for Temperature, Humidity and Soil pH in IOT-Based Onion Cultivation}
+In this article by Salsabila Audyanisa and Abdi Darmawan \cite{audyanisa2024design} from Darmajaya Institute of Informatics and Business, a farming monitoring system tailored for onion cultivation is discussed. The system comprises three main components: an input system, a microcontroller system, and an output system.\\
+The input system includes a soil pH sensor and a DHT11 sensor for measuring soil pH, temperature, and humidity respectively. The microcontroller utilized is the NodeMCU ESP8266 minimum board system.\\
+The output system involves a water pump controlled by a relay, and an Android application for monitoring sensor readings and controlling the water pump. The soil pH sensor provides measurements crucial for onion plant growth, while the DHT11 sensor helps in monitoring temperature and humidity levels.\\
+The microcontroller system, powered by the NodeMCU ESP8266, processes the sensor data and controls the water pump based on predefined conditions. The relay facilitates the ON and OFF control of the water pump as per the system requirements.\\
+The Android application serves as a user interface for monitoring soil pH sensor readings, DHT11 sensor readings, and controlling the water pump remotely. It provides real-time updates on environmental conditions and allows users to adjust irrigation based on the sensor data.\\
+Overall, this system offers a comprehensive solution for monitoring and controlling environmental parameters essential for onion cultivation, leveraging IoT technology for efficient farming practices.
+
+\subsubsection{Design and Development of Soil Monitoring System for Precision Farming On Small-Scale Outdoor Farm}
+In this paper authored by Dezdyta Poszarevac Saputra, M.B. Nugraha, Marojahan Tampubolon, Kahfi Sabillah Arhan \cite{10435334} from Electrical Engineering, Universitas Multimedia Nusantara, Tangerang, Indonesia, presents a comprehensive system for monitoring plant conditions and nutrition, as well as providing a user-friendly interface.\\
+The system consists of two main subsystems: a monitoring subsystem for assessing soil conditions and plant nutrition, and a user interface (UI) subsystem.\\
+The monitoring subsystem incorporates various sensors to measure crucial parameters including ambient temperature, soil moisture, air humidity, light intensity, and CO2 levels. These parameters are essential for determining the water and nutrient requirements of vegetable crops, ensuring optimal growth conditions. Sensors such as DHT-11, YL-69, MQ-135, and BH1750 are employed to gather real-time data on environmental conditions and plant nutrition.\\
+The user interface subsystem, facilitated by the Node-RED server, presents the collected sensor data in a user-friendly format. Users can easily access information regarding ambient temperature, soil humidity, air humidity, light intensity, CO2 levels, and NPK values through the interface. This allows farmers or users in the smart farming industry to make informed decisions based on the real-time data provided by the sensors.\\
+Overall, the system offers significant advantages by meeting user requirements in the automated farming industry, providing precise and timely information on plant conditions and nutrition through a user-friendly interface.
+
+\subsubsection{IOT Based Real-Time Monitoring System for Precision Agriculture}
+In this paper authored by Surbhi Vijh, Arpita, Jyoti Prakash Bora, Prateek Kumar Gupta from School of Engineering and Technology, Sharda University, Greater Noida, India, and Sumit Kumar from ASET, Amity University, Noida, Uttar Pradesh \cite{10463399}, focuses on a project aimed at enhancing agricultural operations through real-time monitoring and control.\\
+The project utilizes a DHT11 Humidity Temperature Sensor to monitor both humidity and air temperature, along with a capacitive soil moisture sensor to measure soil moisture levels. An essential component of the system is a 5V power relay-controlled water pump, which automates the irrigation process. The soil moisture sensor ensures that the soil remains adequately moist by activating the water pump whenever the soil's moisture content drops below a predefined threshold.\\
+To enable real-time monitoring and control, the system is integrated with an online ThingSpeak server. This server facilitates remote monitoring of agricultural operations, allowing farmers to oversee their fields from any location worldwide. Through an intuitive online interface provided by the ThingSpeak platform, farmers can make informed decisions regarding irrigation schedules and closely monitor soil conditions.\\
+Overall, the project offers a practical solution for improving agricultural efficiency by leveraging sensor technology and online monitoring platforms to optimize irrigation practices and ensure optimal soil conditions for crop growth.
+
+\subsubsection{Enabling Smart Agriculture: An IoT-Based Framework for Real-Time Monitoring and Analysis of Agricultural Data}
+In this paper authored by Faruk Enes Oguz, Mahmut Nedim Ekersular, Kubilay Muhammed Sunnetci, and Ahmet Alkan \cite{oguz2024enabling} presents an IoT-based framework designed for agricultural data monitoring.\\
+The framework incorporates sensors to measure various environmental parameters essential for agriculture, including light intensity (GY-30), temperature and pressure (BME280), smoke detection (MQ-2), humidity (DHT11), and soil moisture (YL-69). Data collected from these sensors are transmitted to an ESP-32S development board, which serves as the central processing unit. The ESP-32S board is programmed using the Arduino IDE to collect sensor data and transmit it to the ThingSpeak cloud service provided by MATLAB via a Wi-Fi connection.\\
+Once the data is uploaded to the ThingSpeak cloud, it becomes accessible for analysis and visualization in MATLAB. To facilitate user interaction and data analysis, the authors develop a user-friendly Graphical User Interface (GUI) application. This application enables real-time monitoring of data flow and provides essential statistical metrics such as maximum, minimum, mean, standard deviation, and current values upon user request.\\
+Moreover, the proposed system incorporates alert mechanisms to notify users when certain environmental parameters exceed predefined threshold values. Specifically, users receive email notifications when soil dryness and smoke levels surpass the set thresholds, enabling timely intervention to address potential issues in the agricultural environment.\\
+Overall, the IoT-based framework presented in the study offers a comprehensive solution for monitoring and analyzing agricultural data in real-time, empowering users with valuable insights and facilitating proactive decision-making to optimize agricultural practices.
+
+\subsection{Conclusion}
+\newpage
+
+\section{Methodology}
+\subsection{Overall System Architecture}
+\begin{figure}[h]
+\includegraphics[scale=0.5]{{/System-Architecture.jpg}}
+\caption{System Architecture}
+\end{figure}
+In the above image is the block diagram of the system architecture of the farm monitoring system. The system is comprised of five (5) major blocks: the Sensor node, the power supply unit, the cloud service being used, and the client interface. All these separate parts come together to monitor, transmit, and analyze the vital farm conditions in scope.\\
+
+The sensor node monitors various factors in scope, while the management node collects data from the sensor node and sends it to the cloud service, from which information is then sent to the client's end.
+\newpage
+\subsubsection{Sensor Node}
+\begin{figure}[h]
+\includegraphics[scale=0.5]{{/Sensor-node.jpg}}
+\caption{Sensor Node}
+\end{figure}
+The sensor node is made up of eight (8) parts. The central unit, being the intelligent unit, consists of a microcontroller. The sensor node comes with a plethora of sensors and indicators to indicate working modes. Additionally, there is a power supply unit that supplies power to all the components through the central unit.\\
+
+The central unit, or the intelligent unit, gathers information from all the sensor modules and then transmits it over WiFi to the management node in the system.\\
+
+There are two groups of sensors: soil sensors and atmospheric sensors. The atmospheric sensors measure atmospheric conditions, while the soil sensors measure soil conditions. Among the atmospheric sensors is the atmospheric temperature sensor node, which monitors atmospheric temperature and sends signals to the central unit. The rain/humidity sensor detects rain and humidity, sending signals to the central unit. Additionally, there is the soil temperature sensor to check the temperature of the soil. Furthermore, there is the Soil pH Sensor, which can be used to measure the acidity of the soil, and the soil moisture sensor, which is used to check the amount of moisture in the soil.
+
+\subsubsection{Management Node}
+The system is built such that for every four or fewer sensor nodes, there is a management node set to manage them. The management node is in charge of receiving data from the sensor nodes, refining the data, and sending it to the cloud service.
+
+\subsubsection{Cloud Services}
+The cloud services are in charge of the data analysis of the farm conditions data sent via the internet to them. Upon the analysis made by the cloud services, recommendations will be formulated for farmers to follow to achieve high crop yield and avoid wasting resources. The cloud service also serves as the backend for the mobile app user interface. Additionally, the cloud service takes care of sending SMS messages to users using SMS APIs.
+
+\subsubsection{Power Supply}
+The power supply unit consists of a battery and a solar panel. The solar panel charges the battery, and the power from the battery is utilized to power the sensor or management node. Each node has its own power supply unit, which is responsible for meeting the power needs of its components.
+
+\subsubsection{Client Interface}
+All the information gathered by the sensors and analyzed by the cloud services will go to waste if there is no way of presenting the information derived from the analysis and the recommendations from the cloud services.\\
+
+The client interface consists of two parts. Considering our niche/market in Ghana and other African countries, an SMS feature was added. Information about the farm conditions and recommendations are sent through SMS. Additionally, there is the Graphic User Interface (GUI) which provides more detailed information about the farm condition and recommends habits that will increase crop yield based on accurate data.
+\newpage
+
+\section{References}
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
