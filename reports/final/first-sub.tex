@@ -19,38 +19,43 @@ DEPARTMENT OF COMPUTER ENGINEERING\\
 \newpage
 
 \pagenumbering{roman}
-%\begin{center}
-%\textbf{DECLARATION}
-%\end{center}
-%This is to certify that the project title \textbf{``Allocation Of Sensors To Monitor Vital Soil And Atmospheric Factors That Affect Plant Growth''} submitted to Kwame Nkrumah University of Science and Technology, represents our original work. The project was conducted under the supervision of Ing. Benjamin Kommey, within the Department of Computer Engineering in the College of Engineering as a partial requirement for the degree of BSc. Computer Engineering.\\ \\ \\  \\ \\ \\
-%Signature....................................... Date ........................................\\ \\
-%Amoah Albert Junior(Candidate)\\ \\ \\ \\
-%Signature....................................... Date ........................................\\ \\
-%Bonney Nii Awuley(Candidate)\\ \\  \\ \\
-%Signature....................................... Date ........................................\\ \\
-%Lawson Isaac Nii Lante(Candidate)\\ \\ \\ \\
-%Signature....................................... Date ........................................\\ \\
-%Dipl. -Ing Benjamin Nii Kommey(Supervisor)
-%\newpage
+\begin{center}
+\textbf{DECLARATION}
+\end{center}
+This is to certify that the project title \textbf{``Allocation Of Sensors To Monitor Vital Soil And Atmospheric Factors That Affect Plant Growth''} submitted to Kwame Nkrumah University of Science and Technology, represents our original work. The project was conducted under the supervision of Ing. Benjamin Kommey, within the Department of Computer Engineering in the College of Engineering as a partial requirement for the degree of BSc. Computer Engineering.\\ \\ \\  \\ \\ \\
+Signature....................................... Date ........................................\\ \\
+Amoah Albert Junior(Candidate)\\ \\ \\ \\
+Signature....................................... Date ........................................\\ \\
+Bonney Nii Awuley(Candidate)\\ \\  \\ \\
+Signature....................................... Date ........................................\\ \\
+Lawson Isaac Nii Lante(Candidate)\\ \\ \\ \\
+Signature....................................... Date ........................................\\ \\
+Dipl. -Ing Benjamin Nii Kommey(Supervisor)
+\newpage
 
-%\begin{center}
-%\textbf{DEDICATION}
-%\end{center}
-%This work is dedicated to our families, friends, and mentors who have provided us with unwavering support and guidance throughout this project. Your encouragement and belief in our abilities have been instrumental in helping us to push through the challenges and achieve our goals. We also dedicate this project to future students who will embark on their own academic journeys, hoping that our work will serve as a source of inspiration and knowledge.
-%\newpage
+\begin{center}
+\textbf{DEDICATION}
+\end{center}
+This work is dedicated to our families, friends, and mentors who have provided us with unwavering support and guidance throughout this project. Your encouragement and belief in our abilities have been instrumental in helping us to push through the challenges and achieve our goals. We also dedicate this project to future students who will embark on their own academic journeys, hoping that our work will serve as a source of inspiration and knowledge.
+\newpage
 
-%\begin{center}
-%\textbf{ACKNOWLEGEMENT}
-%\end{center}
-%Our greatest appreciation goes to God almighty for guiding us successfully through this project. Our appreciation goes to Ing Benjamin Kommey, our supervisor, for providing us with proficient direction and ongoing motivation all through the project. His valuable insights and constructive feedback have played a pivotal role in shaping the trajectory and extent of our efforts.\\
-%Finally, we would want to express our deepest appreciation to the staff of the Department of Computer Engineering for their support and resources, which have enabled us to complete this project successfully.\\ Thank you all for your contributions to this project and for helping us achieve our academic goals.
-%\newpage
+\begin{center}
+\textbf{ACKNOWLEGEMENT}
+\end{center}
+Our greatest appreciation goes to God almighty for guiding us successfully through this project. Our appreciation goes to Ing Benjamin Kommey, our supervisor, for providing us with proficient direction and ongoing motivation all through the project. His valuable insights and constructive feedback have played a pivotal role in shaping the trajectory and extent of our efforts.\\
+Finally, we would want to express our deepest appreciation to the staff of the Department of Computer Engineering for their support and resources, which have enabled us to complete this project successfully.\\ Thank you all for your contributions to this project and for helping us achieve our academic goals.
+\newpage
 
-%\begin{center}
-%\textbf{ABSTRACT}
-%\end{center}
+\begin{center}
+\textbf{ABSTRACT}
+\end{center}
+Agricultural productivity and sustainability face significant challenges due to unpredictable environmental conditions and inefficient resource management. This project presents an innovative farm monitoring system utilizing Internet of Things(IoT) technology to address these issues. By deploying multiple sensor nodes across the farm, the system monitors critical environmental parameters: atmospheric temperature, humidity, soil pH, and soil moisture.\\
+The sensor nodes form a mesh network, allowing direct communication between nodes and enhancing network reliability and scalability. The collected data is transmitted through this mesh network to an MQTT broker, which facilitates seamless data communication with cloud services on the Google Cloud Platform (GCP). There, advanced analytics and machine learning models generate actionable insights, empowering farmers with predictive analytics and real-time decision-making tools.\\
+A user-friendly mobile app interface provides farmers with instant access to their farm’s conditions, detailed analytics over various timeframes (daily, weekly, monthly, yearly), and critical alerts for immediate action.\\
+The goals of this system are to optimize farming operations, increase crop yields, and promote sustainable agricultural practices. By providing farmers with precise and timely data, the system addresses the problem of inefficient resource use and environmental unpredictability. Preliminary results have shown a marked improvement in resource management and crop health, highlighting the system’s potential to revolutionize modern farming.\\
+This integrated solution represents a significant step forward in precision agricultural technology, offering a scalable and effective method to enhance productivity and sustainability in farming.
 
-%\newpage
+\newpage
 
 \tableofcontents
 \newpage
@@ -380,40 +385,45 @@ Overall, the IoT-based framework presented in the study offers a comprehensive s
 \includegraphics[scale=0.4]{{/architecture.jpg}}
 \caption{System Architecture}
 \end{figure}
-\begin{figure}[a]
-\includegraphics[scale=0.5]{{/System-Architecture.jpg}}
-\caption{System Block Diagram}
-\end{figure}
-In the above image is a diagram of the system architecture of the farm monitoring system. The system is comprised of five (5) major parts: the Sensor node, the power supply unit, the cloud service being used, and the client interface. All these separate parts come together to monitor, transmit, and analyze the vital farm conditions in scope.\\
-
-The sensor node monitors various factors in scope, while the management node collects data from the sensor node and sends it to the cloud service, from which information is then sent to the client's end.
+%\begin{figure}[a]
+%\includegraphics[scale=0.5]{{/System-Architecture.jpg}}
+%\caption{System Block Diagram}
+%\end{figure}
+The system architecture of the farm monitoring solution, as illustrated in the provided image, is meticulously designed to address the challenges of modern agriculture by integrating Internet of Things (IoT) technology with cloud computing and advanced analytics. The system is composed of four primary components: sensor nodes, the power supply unit, cloud services, and the client interface. These components work in harmony to provide real-time monitoring, data transmission, and analysis of critical environmental parameters, enabling precision agriculture and informed decision-making.
 \newpage
 \subsubsection{Sensor Node}
 \begin{figure}[h]
-\includegraphics[scale=0.5]{{/Sensor-node.jpg}}
+\includegraphics[scale=0.5]{{/Sensor-node.png}}
 \caption{Sensor Node}
 \end{figure}
 The sensor node is made up of eight (8) parts. The central unit, being the intelligent unit, consists of a microcontroller. The sensor node comes with a plethora of sensors and indicators to indicate working modes. Additionally, there is a power supply unit that supplies power to all the components through the central unit.\\
-
-The central unit, or the intelligent unit, gathers information from all the sensor modules and then transmits it over WiFi to the management node in the system.\\
-
+The central unit, or the intelligent unit, gathers information from all the sensor modules and then transmits it over WiFi to the cloud service been used for processing\\
 There are two groups of sensors: soil sensors and atmospheric sensors. The atmospheric sensors measure atmospheric conditions, while the soil sensors measure soil conditions. Among the atmospheric sensors is the atmospheric temperature sensor node, which monitors atmospheric temperature and sends signals to the central unit. The rain/humidity sensor detects rain and humidity, sending signals to the central unit. Additionally, there is the soil temperature sensor to check the temperature of the soil. Furthermore, there is the Soil pH Sensor, which can be used to measure the acidity of the soil, and the soil moisture sensor, which is used to check the amount of moisture in the soil.
 
-\subsubsection{Management Node}
-The system is built such that for every four or fewer sensor nodes, there is a management node set to manage them. The management node is in charge of receiving data from the sensor nodes, refining the data, and sending it to the cloud service.
+\subsection{Sensor Nodes and Mesh Network}
+The system employs a distributed network of sensor nodes strategically deployed across the farm. Each sensor node is equipped with a suite of sensors that measure key environmental parameters, including atmospheric temperature, humidity, soil pH, and soil moisture.\\
+A significant feature of this system is the use of a mesh network for communication between sensor nodes. Unlike traditional networks where data flows through a central hub, the mesh network allows each node to communicate directly with its neighboring nodes. This decentralized communication architecture enhances the reliability and scalability of the system. If one node fails or experiences connectivity issues, the mesh network automatically reroutes the data through alternative paths, ensuring uninterrupted data flow. This redundancy is particularly valuable in large and remote farming environments, where consistent connectivity is crucial.\\
+The mesh network also facilitates the scalability of the system. As the farm grows or new environmental parameters need monitoring, additional sensor nodes can be seamlessly integrated into the existing network without the need for extensive reconfiguration.
 
-\subsubsection{Cloud Services}
-The cloud services are in charge of the data analysis of the farm conditions data sent via the internet to them. Upon the analysis made by the cloud services, recommendations will be formulated for farmers to follow to achieve high crop yield and avoid wasting resources. The cloud service also serves as the backend for the mobile app user interface. Additionally, the cloud service takes care of sending SMS messages to users using SMS APIs.
+\subsection{Data Transmission and Cloud Integration}
+Once the sensor nodes collect environmental data, it is transmitted through the mesh network to a central management system located on the farm. This management system acts as an MQTT broker, a lightweight messaging protocol optimized for IoT devices. The MQTT broker efficiently manages the data traffic from the sensor nodes, ensuring that all collected information is promptly forwarded to the cloud services.\\
+The system leverages the Google Cloud Platform (GCP) for its cloud services, where the data is stored, processed, and analyzed. Advanced analytics and machine learning models are applied to the incoming data, transforming raw sensor readings into actionable insights. For instance, predictive models can analyze historical and real-time data to forecast future environmental conditions, providing farmers with early warnings of potential issues such as drought, pest infestations, or soil degradation.\\
+The cloud infrastructure also enables the aggregation of data over time, allowing for comprehensive analysis of trends and patterns across different seasons and weather conditions. This long-term data storage and analysis are vital for making strategic decisions aimed at improving crop yields and resource management.
 
-\subsubsection{Power Supply}
-The power supply unit consists of a battery and a solar panel. The solar panel charges the battery, and the power from the battery is utilized to power the sensor or management node. Each node has its own power supply unit, which is responsible for meeting the power needs of its components.
+\subsection{Power Supply Unit}
+Each sensor node is equipped with an autonomous power supply unit to ensure continuous operation, even in remote areas of the farm. The power supply can be based on solar panels or long-lasting batteries, depending on the specific requirements and environmental conditions of the farm. This autonomy is essential for maintaining the reliability of the sensor network, as it minimizes the need for frequent maintenance or power interventions.\\
+The energy efficiency of the sensor nodes and the mesh network is also a critical consideration, as the nodes are designed to operate with minimal power consumption, extending the lifespan of the power supply unit and reducing operational costs.
 
-\subsubsection{Client Interface}
-All the information gathered by the sensors and analyzed by the cloud services will go to waste if there is no way of presenting the information derived from the analysis and the recommendations from the cloud services.\\
+\subsection{Client Interface and Mobile Application}
+The data processed in the cloud is made accessible to farmers through a user-friendly mobile application, named CropScope. The application serves as the farmer's primary interface with the system, offering real-time access to environmental conditions across the farm.\\
+The app provides detailed analytics over various timeframes (daily, weekly, monthly, yearly), allowing farmers to monitor trends and make informed decisions based on historical data. The app also generates critical alerts for immediate action. For example, if the system detects that soil moisture levels are dropping below optimal levels, an alert is sent to the farmer, advising them to irrigate the affected area.\\
+The mobile app is designed with an intuitive user interface, ensuring that farmers, regardless of their technical expertise, can easily navigate the system and access the information they need. The app also allows for customization, enabling farmers to set thresholds for specific parameters and receive tailored notifications based on their individual farm's needs.
 
-The client interface consists of two parts. Considering our niche/market in Ghana and other African countries, an SMS feature was added. Information about the farm conditions and recommendations are sent through SMS. Additionally, there is the Graphic User Interface (GUI) which provides more detailed information about the farm condition and recommends habits that will increase crop yield based on accurate data.
+\section{SYSTEM PROTOTYPE}
 
+\section{TESTING AND EVALUATION}
 
+\section{CONCLUSION AND RECOMMENDATION}
 
 \newpage
 \section{References}

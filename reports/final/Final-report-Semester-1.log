@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.1.1)  30 MAR 2024 01:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.5.18)  24 AUG 2024 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -284,7 +284,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--34
 
  []
 
-[1] [2] [3] [4] (./Final-report-Semester-1.toc
+[1] [2] [3]
+Overfull \hbox (19.91264pt too wide) in paragraph at lines 52--58
+\OT1/cmr/m/n/12 seam-less data com-mu-ni-ca-tion with cloud ser-vices on the Go
+ogle Cloud Plat-form(GCP).
+ []
+
+[4] (./Final-report-Semester-1.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -324,96 +330,96 @@ or Mon-
 \openout4 = `Final-report-Semester-1.lof'.
 
  [7]
-Underfull \hbox (badness 10000) in paragraph at lines 63--72
+Underfull \hbox (badness 10000) in paragraph at lines 69--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--72
+Underfull \hbox (badness 10000) in paragraph at lines 69--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--72
+Underfull \hbox (badness 10000) in paragraph at lines 69--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--72
+Underfull \hbox (badness 10000) in paragraph at lines 69--78
 
  []
 
 
-Overfull \hbox (7.54884pt too wide) in paragraph at lines 63--72
+Overfull \hbox (7.54884pt too wide) in paragraph at lines 69--78
 \OT1/cmr/m/n/12 press-ing is-sue of hunger and its far-reaching con-se-quences 
 on hu-man-ity is paramount.
  []
 
 [1] [2{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
 [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 122--135
+Underfull \hbox (badness 10000) in paragraph at lines 128--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--135
+Underfull \hbox (badness 10000) in paragraph at lines 128--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--135
+Underfull \hbox (badness 10000) in paragraph at lines 128--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--135
+Underfull \hbox (badness 10000) in paragraph at lines 128--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--135
+Underfull \hbox (badness 10000) in paragraph at lines 128--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--135
+Underfull \hbox (badness 10000) in paragraph at lines 128--141
 
  []
 
 [5] [6] [7] [8] [9] [10] [11] [12]
-Overfull \hbox (14.94731pt too wide) in paragraph at lines 246--246
+Overfull \hbox (14.94731pt too wide) in paragraph at lines 252--252
 []\OT1/cmr/bx/n/12 PRELIMINARY DE-SIGN FOR CROP MON-I-TOR-ING IN-VOLV-
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 261--265
+Underfull \hbox (badness 10000) in paragraph at lines 267--271
 
  []
 
 [14] [15]
-Overfull \hbox (1.86974pt too wide) in paragraph at lines 286--291
+Overfull \hbox (1.86974pt too wide) in paragraph at lines 292--297
 \OT1/cmr/m/n/12 The study uti-lizes a minia-tur-ized leaf wet-ness sen-sor in-t
 e-grated with an application-
  []
 
 [16]
-Overfull \hbox (0.49213pt too wide) in paragraph at lines 297--297
+Overfull \hbox (0.49213pt too wide) in paragraph at lines 303--303
 []\OT1/cmr/bx/n/12 Cloud-based Low-Power Long Range IoT Net-work for Soil Mois-
 
  []
 
 [17] [18] [19] [20]
 ! Misplaced alignment tab character &.
-l.338 ...at Vel Tech Rangarajan Dr. Sagunthala R &
+l.344 ...at Vel Tech Rangarajan Dr. Sagunthala R &
                                                    D Institute of Science an...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -423,7 +429,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 [21] [22]
-Overfull \hbox (4.42555pt too wide) in paragraph at lines 367--367
+Overfull \hbox (4.42555pt too wide) in paragraph at lines 373--373
 []\OT1/cmr/bx/n/12 Enabling Smart Agri-cul-ture: An IoT-Based Frame-work for Re
 al-
  []
@@ -433,10 +439,10 @@ al-
 File: ./images///System-Architecture.jpg Graphic file (type jpg)
 <use ./images///System-Architecture.jpg>
 Package pdftex.def Info: ./images///System-Architecture.jpg  used on input line
- 380.
+ 386.
 (pdftex.def)             Requested size: 402.0009pt x 394.47278pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--384
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
 
@@ -444,25 +450,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 383--384
 <./images///Sensor-node.jpg, id=114, 952.55875pt x 772.8875pt>
 File: ./images///Sensor-node.jpg Graphic file (type jpg)
 <use ./images///Sensor-node.jpg>
-Package pdftex.def Info: ./images///Sensor-node.jpg  used on input line 389.
+Package pdftex.def Info: ./images///Sensor-node.jpg  used on input line 395.
 (pdftex.def)             Requested size: 476.27821pt x 386.4428pt.
 
-Overfull \hbox (58.02454pt too wide) in paragraph at lines 389--390
+Overfull \hbox (58.02454pt too wide) in paragraph at lines 395--396
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
 
  []
 
 [26 <./images///Sensor-node.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 
  []
 
@@ -501,7 +507,7 @@ L3 programming layer <2023-06-05>
  ) 
 Here is how much of TeX's memory you used:
  2486 strings out of 475735
- 42612 string characters out of 5784787
+ 42612 string characters out of 5784786
  1863759 words of memory out of 5000000
  23216 multiletter control sequences out of 15000+600000
  519239 words of font info for 53 fonts, out of 8000000 for 9000
@@ -512,7 +518,7 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfrm1200.pfb>
-Output written on Final-report-Semester-1.pdf (39 pages, 674485 bytes).
+Output written on Final-report-Semester-1.pdf (39 pages, 675992 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  105 compressed objects within 2 object streams
