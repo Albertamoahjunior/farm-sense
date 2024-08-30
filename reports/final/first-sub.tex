@@ -419,10 +419,238 @@ The data processed in the cloud is made accessible to farmers through a user-fri
 The app provides detailed analytics over various timeframes (daily, weekly, monthly, yearly), allowing farmers to monitor trends and make informed decisions based on historical data. The app also generates critical alerts for immediate action. For example, if the system detects that soil moisture levels are dropping below optimal levels, an alert is sent to the farmer, advising them to irrigate the affected area.\\
 The mobile app is designed with an intuitive user interface, ensuring that farmers, regardless of their technical expertise, can easily navigate the system and access the information they need. The app also allows for customization, enabling farmers to set thresholds for specific parameters and receive tailored notifications based on their individual farm's needs.
 
+\newpage
 \section{SYSTEM PROTOTYPE}
+In the system prototype, there are two main components: the hardware and the software. These aspects work together to monitor, analyze, and display farm condition data for the farmer. In this section of the document, we will discuss the system prototype.
 
+\subsection{Block Diagram}
+This block diagram illustrates how the various parts connect and work together to fulfill the intended purpose.
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/system-block.jpg}}
+\caption{System Block Diagram}
+\end{figure}
+\subsection{Power Supply}
+The power supply provides the necessary electrical power to the ESP32 microcontroller and connected sensors.The power is a rechargeable  battery, solar power system, or a direct power source, depending on the deployment environment.  Again it ensures the power required by the ESP32 is consistent and constant and also for all other components connected components.
+
+\subsection{Esp32 Microcontroller}
+It serves as the central processing unit for the sensor node. It gathers data from the sensors, processes it, and communicates with the backend server and other sensor nodes.\\
+The ESP32 has built-in Wi-Fi and Bluetooth, which allows it to communicate wirelessly with the backend server. It also GPIO pins used for connecting to various sensors components like the DHT22, the soil moisture sensor the push button for switching between AP mode and station mode.\\ 
+The ESP32 is responsible for managing its power consumption, which is crucial for battery-powered operations. fig. \ref{fig:esp32}
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/esp32.jpg}}
+\caption{ESP32 Micro-controller}
+\label{fig:esp32}
+\end{figure}
+
+\subsection{DHT22 Temperature and Humidity sensor}
+It used to measure the atmospheric temperature and humidity.\\
+The sensor continuously monitors the temperature and humidity and sends this data to the ESP32.\\
+It is connected to the ESP32 via one of its GPIO pins, often using a digital input. fig. \ref{fig:dht}
+\begin{figure}[!h]
+\includegraphics[scale=0.4]{{/dht22.png}}
+\caption{DHT 22 Sensor module}
+\label{fig:dht}
+\end{figure}
+
+\subsection{Resistive Soil Moisture Sensor}
+It measures the moisture content in the soil.\\
+This sensor provides an analog output that corresponds to the moisture level in the soil.\\
+It is connected to an analog pin on the ESP32 for continuous monitoring. fig. \ref{fig:soil-sensor}
+\begin{figure}[!h]
+\includegraphics[scale=0.4]{{/resistive-soil.png}}
+\caption{Resistive soil moisture sensor module}
+\label{fig:soil-sensor}
+\end{figure}
+
+\subsection{Backend Service}
+The backend acts as the central data processing and storage unit. It also handles communication between the ESP32, mobile app, and admin webapp.
+
+\subsubsection{Mqtt listener}
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/mqtt_listener.png}}
+\caption{Mqtt Listener Code}
+\label{mqtt-listening}
+\end{figure}
+It listens for incoming data from the ESP32 via MQTT protocol and processes it.\\
+It also ensures real-time data communication between the ESP32 and the server. The code is as depicted in this figure. fig. \ref{mqtt-listening}
+
+\subsubsection{Authentication}
+It manages user access to the system, ensuring that only authorized users can access certain functionalities.\\
+We use JWT is used for authentication and tokenization throughout the application.
+
+\subsubsection{User and Admin Routes}
+\begin{itemize}
+\item[--] \emp{User Routes}\\
+Allow end-users (farmers) to access data and perform actions via the mobile app. fig. \ref{user-route}
+\begin{figure}[h]
+\includegraphics[scale=0.5]{{/user_routes.png}}
+\caption{User Routes Code}
+\label{user-route}
+\end{figure}
+
+\item[--] \emph{Admin Routes}\\
+Provide access to administrative functions through the admin webapp. fig. \ref{admin-route}
+\begin{figure}[h]
+\includegraphics[scale=0.5]{{/admin_routes.png}}
+\caption{Admin Routes Code}
+\label{admin-route}
+\end{figure}
+
+\end{itemize}
+\subsection{Mobile App}
+\begin{itemize}
+\item[--] \emph{Authentication}\\
+Ensures secure access to the app’s features. fig.\ref{mobile-login}
+\begin{figure}[h]
+\includegraphics[scale=0.5]{{/cropscope-login.jpg}}
+\caption{Mobile App login page}
+\label{mobile-login}
+\end{figure}
+
+\item[--] \emph{Overview Page}\\
+Displays a summary of the farm conditions such as the soil pH, soil moisture, atmospheric humidity and atmospheric temperature. fig. \ref{mobile-overview}
+\begin{figure}[h]
+\includegraphics[scale=0.5]{{/overview.jpg}}
+\caption{Mobile App Overview Page}
+\label{mobile-overview}
+\end{figure}
+
+\item[--] \emph{Analytics Page}\\
+It is used to display detailed analytics, such as trends in temperature, humidity, soil pH  and soil moisture over time. fig. \ref{mobile-analytics}
+\begin{figure}[h]
+\includegraphics[scale=0.5]{{/cropscope-graph.jpg}}
+\caption{Mobile App analytics display page}
+\label{mobile-analytics}
+\end{figure}
+
+\item[--] \emph{Recommendations Page}\\
+It offers suggestions based on the sensor data, such as when to water crops, applying fertilizer and lime. fig. \ref{mobile-recommend}
+\begin{figure}[h]
+\includegraphics[scale=0.5]{{/cropscope-recommend.jpg}}
+\caption{Mobile App Recommendations page}
+\label{mobile-recommend}
+\end{figure}
+
+\item[--] \emph{Weather Page}\\
+It displays real-time and forecasted weather information relevant to the user’s location. fig. \ref{mobile-weather}
+\begin{figure}[h]
+\includegraphics[scale=0.5]{{/cropscope-weather.jpg}}
+\caption{Admin Routes Code}
+\label{mobile-weather}
+\end{figure}
+
+\end{itemize}
+\subsection{Admin Webapp}
+It allows administrators to manage the system, onboard new users, and monitor system performance.
+\begin{itemize}
+\item[--] \emph{Authentication}\\
+It ensures secure access to the admin functionalities. fig. \ref{admin-login}
+\begin{figure}[h]
+\includegraphics[scale=0.2]{{/admin-login.png}}
+\caption{Admin login page}
+\label{admin-login}
+\end{figure}
+
+\item[--] \emph{Admin Dashboard}\\
+Centralized location for monitoring system status, user activities, and sensor data. fig. \ref{dasboard}
+\begin{figure}[h]
+\includegraphics[scale=0.2]{{/admin-dashboard.png}}
+\caption{Admin Dashboard}
+\label{dasboard}
+\end{figure}
+
+\item[--] \emph{Onboarding New farmers}\\
+A feature that allows admins to register new users, configure their devices, and set up their accounts. fig. \ref{new-farmer}
+\begin{figure}[h]
+\includegraphics[scale=0.2]{{/new-farmer.png}}
+\caption{On boarding new farmers}
+\label{new-farmer}
+\end{figure}
+\end{itemize}
+
+\newpage
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/code-setup.png}}
+\caption{Code Setup Part 1}
+\label{setup}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/code-setup-2.png}}
+\caption{Code Setup Part 2}
+\label{setup-2}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/indicator-colors.png}}
+\caption{Indicator Colors}
+\label{indicator}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/load-config.png}}
+\caption{Load Configurations for sensor node}
+\label{load-conf}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/save-config.png}}
+\caption{Save Configurations for sensor node}
+\label{save-conf}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/secure-connection.png}}
+\caption{Setting up secure connection for sensor nodes}
+\label{secure-connection}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/switch-ap.png}}
+\caption{Switching to AP mode}
+\label{ap-switch}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/switch-station.png}}
+\caption{Switch to station}
+\label{station-switch}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/moisture-ph.png}}
+\caption{Convert moisture value to pH}
+\label{moisture-pH}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/webserver.png}}
+\caption{Code to serve web interface to setup the sensor node}
+\label{server-conf}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/reconnect.png}}
+\caption{Reconnect sensor node to mqtt broker}
+\label{reconnect}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/void-setup.png}}
+\caption{Void Setup function}
+\label{void-setup}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{{/void-loop.png}}
+\caption{Void loop function}
+\label{void-loop}
+\end{figure}
+
+\newpage
 \section{TESTING AND EVALUATION}
 
+\newpage
 \section{CONCLUSION AND RECOMMENDATION}
 
 \newpage

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.5.18)  28 AUG 2024 18:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.5.18)  30 AUG 2024 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -296,46 +296,15 @@ Overfull \hbox (6.50441pt too wide) in paragraph at lines 52--57
 -frames (daily, weekly, monthly,
  []
 
-[4] (./first-sub.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2.
-
-Overfull \hbox (4.67947pt too wide) in paragraph at lines 18--18
- [][] []\OT1/cmr/m/n/12 Design of Green-House En-vi-ron-ment Mon-i-tor-ing Sys-
-tem based 
- []
-
-
-Overfull \hbox (1.40735pt too wide) in paragraph at lines 26--26
- \OT1/cmr/m/n/12 ron-men-tal con-di-tion us-ing wire-less sen-sor network-IOT T
-ech- 
- []
-
-[5]
-Overfull \hbox (2.01839pt too wide) in paragraph at lines 35--35
- [][] []\OT1/cmr/m/n/12 Study on Pre-ci-sion Agri-cul-ture Mon-i-tor-ing Frame-
-work Based 
- []
-
-
-Overfull \hbox (2.24477pt too wide) in paragraph at lines 37--37
- [][] []\OT1/cmr/m/n/12 Design and Im-ple-men-ta-tion of an IoT-Based Sys-tem f
-or Mon- 
- []
-
-)
+[4] (./first-sub.toc)
 \tf@toc=\write3
 \openout3 = `first-sub.toc'.
 
- [6] (./first-sub.lof)
+ [5] (./first-sub.lof)
 \tf@lof=\write4
 \openout4 = `first-sub.lof'.
 
- [7]
+ [6]
 Underfull \hbox (badness 10000) in paragraph at lines 67--76
 
  []
@@ -396,7 +365,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--140
 
  []
 
-[5] [6] [7] [8] [9] [10] [11] [12]
+[5] [6] [7]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 199.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 199.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 199.
+ [8] [9] [10] [11] [12]
 Overfull \hbox (14.94731pt too wide) in paragraph at lines 251--251
 []\OT1/cmr/bx/n/12 PRELIMINARY DE-SIGN FOR CROP MON-I-TOR-ING IN-VOLV-
  []
@@ -436,7 +412,7 @@ al-
  []
 
 [23] [24]
-<./images///architecture.jpg, id=110, 1084.05pt x 595.22375pt>
+<./images///architecture.jpg, id=107, 1084.05pt x 595.22375pt>
 File: ./images///architecture.jpg Graphic file (type jpg)
 <use ./images///architecture.jpg>
 Package pdftex.def Info: ./images///architecture.jpg  used on input line 385.
@@ -447,7 +423,7 @@ Overfull \hbox (15.35864pt too wide) in paragraph at lines 385--386
  []
 
 [25 <./images///architecture.jpg>]
-<./images///Sensor-node.png, id=114, 854.19125pt x 633.36626pt>
+<./images///Sensor-node.png, id=111, 854.19125pt x 633.36626pt>
 File: ./images///Sensor-node.png Graphic file (type png)
 <use ./images///Sensor-node.png>
 Package pdftex.def Info: ./images///Sensor-node.png  used on input line 396.
@@ -463,13 +439,273 @@ Overfull \hbox (3.24055pt too wide) in paragraph at lines 418--421
 ames (daily, weekly, monthly,
  []
 
-[28] (./first-sub.bbl
+[28]
+<./images///system-block.jpg, id=123, 793.96625pt x 522.95375pt>
+File: ./images///system-block.jpg Graphic file (type jpg)
+<use ./images///system-block.jpg>
+Package pdftex.def Info: ./images///system-block.jpg  used on input line 429.
+(pdftex.def)             Requested size: 317.58087pt x 209.1778pt.
+<./images///esp32.jpg, id=124, 1003.75pt x 736.7525pt>
+File: ./images///esp32.jpg Graphic file (type jpg)
+<use ./images///esp32.jpg>
+Package pdftex.def Info: ./images///esp32.jpg  used on input line 440.
+(pdftex.def)             Requested size: 401.49289pt x 294.69577pt.
+ [29 <./images///system-block.jpg>]
+<./images///dht22.png, id=128, 815.045pt x 590.205pt>
+File: ./images///dht22.png Graphic file (type png)
+<use ./images///dht22.png>
+Package pdftex.def Info: ./images///dht22.png  used on input line 450.
+(pdftex.def)             Requested size: 326.01222pt x 236.0778pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images///resistive-soil.png, id=129, 446.41782pt x 418.56375pt>
+File: ./images///resistive-soil.png Graphic file (type png)
+<use ./images///resistive-soil.png>
+Package pdftex.def Info: ./images///resistive-soil.png  used on input line 460.
+
+(pdftex.def)             Requested size: 178.56395pt x 167.42252pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[30 <./images///esp32.jpg>]
+<./images///mqtt_listener.png, id=134, 996.72375pt x 1513.655pt>
+File: ./images///mqtt_listener.png Graphic file (type png)
+<use ./images///mqtt_listener.png>
+Package pdftex.def Info: ./images///mqtt_listener.png  used on input line 470.
+(pdftex.def)             Requested size: 398.68243pt x 605.45128pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31 <./images///dht22.png> <./images///resistive-soil.png>]
+! Undefined control sequence.
+l.483 \item[--] \emp
+                    {User Routes}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<./images///user_routes.png, id=139, 811.03pt x 560.0925pt>
+File: ./images///user_routes.png Graphic file (type png)
+<use ./images///user_routes.png>
+Package pdftex.def Info: ./images///user_routes.png  used on input line 486.
+(pdftex.def)             Requested size: 405.514pt x 280.04556pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///admin_routes.png, id=140, 734.745pt x 579.16376pt>
+File: ./images///admin_routes.png Graphic file (type png)
+<use ./images///admin_routes.png>
+Package pdftex.def Info: ./images///admin_routes.png  used on input line 494.
+(pdftex.def)             Requested size: 367.3716pt x 289.58116pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///cropscope-login.jpg, id=141, 576.1525pt x 1284.8pt>
+File: ./images///cropscope-login.jpg Graphic file (type jpg)
+<use ./images///cropscope-login.jpg>
+Package pdftex.def Info: ./images///cropscope-login.jpg  used on input line 505
+.
+(pdftex.def)             Requested size: 288.07553pt x 642.39844pt.
+
+LaTeX Warning: Float too large for page by 10.94981pt on input line 508.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///overview.jpg, id=142, 576.1525pt x 1284.8pt>
+File: ./images///overview.jpg Graphic file (type jpg)
+<use ./images///overview.jpg>
+Package pdftex.def Info: ./images///overview.jpg  used on input line 513.
+(pdftex.def)             Requested size: 288.07553pt x 642.39844pt.
+
+LaTeX Warning: Float too large for page by 10.94981pt on input line 516.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///cropscope-graph.jpg, id=143, 576.1525pt x 1284.8pt>
+File: ./images///cropscope-graph.jpg Graphic file (type jpg)
+<use ./images///cropscope-graph.jpg>
+Package pdftex.def Info: ./images///cropscope-graph.jpg  used on input line 521
+.
+(pdftex.def)             Requested size: 288.07553pt x 642.39844pt.
+
+LaTeX Warning: Float too large for page by 10.94981pt on input line 524.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///cropscope-recommend.jpg, id=144, 576.1525pt x 1284.8pt>
+File: ./images///cropscope-recommend.jpg Graphic file (type jpg)
+<use ./images///cropscope-recommend.jpg>
+Package pdftex.def Info: ./images///cropscope-recommend.jpg  used on input line
+ 529.
+(pdftex.def)             Requested size: 288.07553pt x 642.39844pt.
+
+LaTeX Warning: Float too large for page by 10.94981pt on input line 532.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///cropscope-weather.jpg, id=145, 576.1525pt x 1284.8pt>
+File: ./images///cropscope-weather.jpg Graphic file (type jpg)
+<use ./images///cropscope-weather.jpg>
+Package pdftex.def Info: ./images///cropscope-weather.jpg  used on input line 5
+37.
+(pdftex.def)             Requested size: 288.07553pt x 642.39844pt.
+
+LaTeX Warning: Float too large for page by 10.94981pt on input line 540.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///admin-login.png, id=146, 1927.2pt x 1084.05pt>
+File: ./images///admin-login.png Graphic file (type png)
+<use ./images///admin-login.png>
+Package pdftex.def Info: ./images///admin-login.png  used on input line 549.
+(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///admin-dashboard.png, id=147, 1927.2pt x 1084.05pt>
+File: ./images///admin-dashboard.png Graphic file (type png)
+<use ./images///admin-dashboard.png>
+Package pdftex.def Info: ./images///admin-dashboard.png  used on input line 557
+.
+(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///new-farmer.png, id=148, 1927.2pt x 1084.05pt>
+File: ./images///new-farmer.png Graphic file (type png)
+<use ./images///new-farmer.png>
+Package pdftex.def Info: ./images///new-farmer.png  used on input line 565.
+(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
+[32]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33]
+<./images///code-setup.png, id=155, 963.6pt x 803.0pt>
+File: ./images///code-setup.png Graphic file (type png)
+<use ./images///code-setup.png>
+Package pdftex.def Info: ./images///code-setup.png  used on input line 573.
+(pdftex.def)             Requested size: 385.43317pt x 321.1943pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///code-setup-2.png, id=156, 853.1875pt x 542.025pt>
+File: ./images///code-setup-2.png Graphic file (type png)
+<use ./images///code-setup-2.png>
+Package pdftex.def Info: ./images///code-setup-2.png  used on input line 579.
+(pdftex.def)             Requested size: 341.26895pt x 216.80615pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///indicator-colors.png, id=157, 548.0475pt x 299.1175pt>
+File: ./images///indicator-colors.png Graphic file (type png)
+<use ./images///indicator-colors.png>
+Package pdftex.def Info: ./images///indicator-colors.png  used on input line 58
+5.
+(pdftex.def)             Requested size: 219.2151pt x 119.64487pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///load-config.png, id=158, 582.175pt x 542.025pt>
+File: ./images///load-config.png Graphic file (type png)
+<use ./images///load-config.png>
+Package pdftex.def Info: ./images///load-config.png  used on input line 591.
+(pdftex.def)             Requested size: 232.86588pt x 216.80615pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///save-config.png, id=159, 540.0175pt x 355.3275pt>
+File: ./images///save-config.png Graphic file (type png)
+<use ./images///save-config.png>
+Package pdftex.def Info: ./images///save-config.png  used on input line 597.
+(pdftex.def)             Requested size: 216.00316pt x 142.12846pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///secure-connection.png, id=160, 776.9025pt x 803.0pt>
+File: ./images///secure-connection.png Graphic file (type png)
+<use ./images///secure-connection.png>
+Package pdftex.def Info: ./images///secure-connection.png  used on input line 6
+03.
+(pdftex.def)             Requested size: 310.7555pt x 321.1943pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///switch-ap.png, id=161, 666.49pt x 373.395pt>
+File: ./images///switch-ap.png Graphic file (type png)
+<use ./images///switch-ap.png>
+Package pdftex.def Info: ./images///switch-ap.png  used on input line 609.
+(pdftex.def)             Requested size: 266.59128pt x 149.35535pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///switch-station.png, id=162, 937.5025pt x 672.5125pt>
+File: ./images///switch-station.png Graphic file (type png)
+<use ./images///switch-station.png>
+Package pdftex.def Info: ./images///switch-station.png  used on input line 615.
+
+(pdftex.def)             Requested size: 374.99435pt x 269.00023pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///moisture-ph.png, id=163, 929.4725pt x 410.53375pt>
+File: ./images///moisture-ph.png Graphic file (type png)
+<use ./images///moisture-ph.png>
+Package pdftex.def Info: ./images///moisture-ph.png  used on input line 621.
+(pdftex.def)             Requested size: 371.78242pt x 164.21059pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///webserver.png, id=164, 1027.84pt x 1139.25626pt>
+File: ./images///webserver.png Graphic file (type png)
+<use ./images///webserver.png>
+Package pdftex.def Info: ./images///webserver.png  used on input line 627.
+(pdftex.def)             Requested size: 411.12872pt x 455.69443pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///reconnect.png, id=165, 717.68124pt x 503.8825pt>
+File: ./images///reconnect.png Graphic file (type png)
+<use ./images///reconnect.png>
+Package pdftex.def Info: ./images///reconnect.png  used on input line 633.
+(pdftex.def)             Requested size: 287.06741pt x 201.54942pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///void-setup.png, id=166, 1005.7575pt x 1139.25626pt>
+File: ./images///void-setup.png Graphic file (type png)
+<use ./images///void-setup.png>
+Package pdftex.def Info: ./images///void-setup.png  used on input line 639.
+(pdftex.def)             Requested size: 402.29587pt x 455.69443pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images///void-loop.png, id=167, 937.5025pt x 1382.16376pt>
+File: ./images///void-loop.png Graphic file (type png)
+<use ./images///void-loop.png>
+Package pdftex.def Info: ./images///void-loop.png  used on input line 645.
+(pdftex.def)             Requested size: 374.99435pt x 552.85571pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34] [35] (./first-sub.bbl
 Underfull \hbox (badness 3989) in paragraph at lines 37--43
 []\OT1/cmr/m/n/12 Subhra Shankha Bhat-tacher-jee, S Shree-shan, Gattu Priyanka,
  Ak-
  []
 
-[29] [30]
+[36] [37]
 ! Misplaced alignment tab character &.
 l.182   &
           Intelligent Computing Systems (ICON-SONICS)}, pages 212--217, 2023.
@@ -490,29 +726,39 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[31]) [32] (./first-sub.aux)
+[38]) [39] [40 <./images///mqtt_listener.png>] [41 <./images///user_routes.png>
+ <./images///admin_routes.png>] [42 <./images///cropscope-login.jpg>] [43 <./im
+ages///overview.jpg>] [44 <./images///cropscope-graph.jpg>] [45 <./images///cro
+pscope-recommend.jpg>] [46 <./images///cropscope-weather.jpg>] [47 <./images///
+admin-login.png> <./images///admin-dashboard.png>] [48 <./images///new-farmer.p
+ng> <./images///code-setup.png>] [49 <./images///code-setup-2.png> <./images///
+indicator-colors.png> <./images///load-config.png>] [50 <./images///save-config
+.png> <./images///secure-connection.png>] [51 <./images///switch-ap.png> <./ima
+ges///switch-station.png>] [52 <./images///moisture-ph.png>] [53 <./images///we
+bserver.png>] [54 <./images///reconnect.png>] [55 <./images///void-setup.png>]
+[56 <./images///void-loop.png>] (./first-sub.aux)
  ***********
 LaTeX2e <2023-06-01>
 L3 programming layer <2023-06-05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2487 strings out of 475735
- 42171 string characters out of 5784786
- 1863759 words of memory out of 5000000
- 23217 multiletter control sequences out of 15000+600000
+ 2822 strings out of 475735
+ 52116 string characters out of 5784786
+ 1865759 words of memory out of 5000000
+ 23552 multiletter control sequences out of 15000+600000
  519239 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,7n,69p,914b,241s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 61i,8n,69p,914b,324s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfrm1200.pfb>
-Output written on first-sub.pdf (40 pages, 701824 bytes).
+Output written on first-sub.pdf (63 pages, 3799522 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 287 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 

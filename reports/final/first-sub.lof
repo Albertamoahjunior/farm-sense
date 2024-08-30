@@ -1,2 +1,30 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces System Architecture}}{25}{}%
 \contentsline {figure}{\numberline {2}{\ignorespaces Sensor Node}}{26}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces System Block Diagram}}{29}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces ESP32 Micro-controller}}{30}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces DHT 22 Sensor module}}{31}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Resistive soil moisture sensor module}}{31}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Mqtt Listener Code}}{40}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces User Routes Code}}{41}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Admin Routes Code}}{41}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Mobile App login page}}{42}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Mobile App Overview Page}}{43}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Mobile App analytics display page}}{44}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Mobile App Recommendations page}}{45}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Admin Routes Code}}{46}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Admin login page}}{47}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Admin Dashboard}}{47}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces On boarding new farmers}}{48}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Code Setup Part 1}}{48}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Code Setup Part 2}}{49}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Indicator Colors}}{49}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Load Configurations for sensor node}}{49}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Save Configurations for sensor node}}{50}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Setting up secure connection for sensor nodes}}{50}{}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Switching to AP mode}}{51}{}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Switch to station}}{51}{}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Convert moisture value to pH}}{52}{}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Code to serve web interface to setup the sensor node}}{53}{}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Reconnect sensor node to mqtt broker}}{54}{}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Void Setup function}}{55}{}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Void loop function}}{56}{}%
